@@ -15,6 +15,7 @@
   * [Word Ladder](127word-ladder.md)
 * [DFS Summary](bfs-and-dfs/dfs-summary.md)
   * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
+  * [Number of Islands](bfs-and-dfs/number-of-islands.md)
   * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
 
 ## Divide and Conquer
