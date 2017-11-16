@@ -5,8 +5,8 @@
 
 ##### Example
 >s = <span style="background-color:#ffe6e6"><font color=#cc0000 >"leetcode"</font></span>
-dict = <span style="background-color:#ffe6e6"><font color=#cc0000 >["leet", "code"]</font></span>.
-Return true because <span style="background-color:#ffe6e6"><font color=#cc0000 >"leetcode"</font></span> can be segmented as <span style="background-color:#ffe6e6"><font color=#cc0000 >"leet code"</font></span>.
+<br>dict = <span style="background-color:#ffe6e6"><font color=#cc0000 >["leet", "code"]</font></span>.
+<br>Return true because <span style="background-color:#ffe6e6"><font color=#cc0000 >"leetcode"</font></span> can be segmented as <span style="background-color:#ffe6e6"><font color=#cc0000 >"leet code"</font></span>.
 
 [原题链接](https://leetcode.com/problems/word-break/description/)
 
