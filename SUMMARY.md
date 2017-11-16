@@ -20,25 +20,25 @@
 ## Divide and Conquer
 
 * [Summary](divide-and-conquer/summary.md)
-* [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
+  * [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
 
 ## Dynamic Programming
 
 * Summary
-* [Edit Distance](edit-distance.md)
-* [Word Break](word-break.md)
+  * [Edit Distance](edit-distance.md)
+  * [Word Break](word-break.md)
 
 ## Hash
 
 * Summary
-* [Two Sum](hash/two-sum.md)
-* [Valid Anagram](chapter1.md)
-* [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
+  * [Two Sum](hash/two-sum.md)
+  * [Valid Anagram](chapter1.md)
+  * [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
 
 ## Linked List
 
 * [Summary](linked-list/summary.md)
-* [25. Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
+  * [25. Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
 
 ## Search
 
@@ -50,6 +50,4 @@
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [76. Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
-
-## Merge K Sorted Lists
 
