@@ -1,4 +1,4 @@
-# Remove Invalid Parentheses
+# 301. Remove Invalid Parentheses
 ### 题目描述
 
 >Remove the minimum number of invalid parentheses in order to make the input string valid. Return all possible results.

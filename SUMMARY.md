@@ -6,34 +6,34 @@
 ## Binary Tree
 
 * [Element finding](binary-tree/find-an-element-in-the-tree.md)
-  * [236. Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
+  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
 
 ## BFS & DFS
 
 * [BFS Summary](bfs-and-dfs/bfs-summary.md)
-  * [100. Same Tree](same-tree.md)
-  * [127. Word Ladder](127word-ladder.md)
+  * [Same Tree](same-tree.md)
+  * [Word Ladder](127word-ladder.md)
 * [DFS Summary](bfs-and-dfs/dfs-summary.md)
-  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
-  * [301. Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
+  * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
+  * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
 
 ## Divide and Conquer
 
 * [Summary](divide-and-conquer/summary.md)
-* [23. Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
+* [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
 
 ## Dynamic Programming
 
 * Summary
-* [139. Word Break](word-break.md)
-* [72. Edit Distance](edit-distance.md)
+* [Edit Distance](edit-distance.md)
+* [Word Break](word-break.md)
 
 ## Hash
 
 * Summary
-* [1. Two Sum](hash/two-sum.md)
-* [242. Valid Anagram](chapter1.md)
-* [451. Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
+* [Two Sum](hash/two-sum.md)
+* [Valid Anagram](chapter1.md)
+* [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
 
 ## Linked List
 
