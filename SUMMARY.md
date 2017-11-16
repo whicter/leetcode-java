@@ -20,7 +20,9 @@
 
 ## Dynamic Programming
 
+* Summary
 * [139. Word Break](word-break.md)
+* [72. Edit Distance](edit-distance.md)
 
 ## Hash
 
@@ -36,7 +38,7 @@
 
 * Binary Search
   * [4. Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
-  * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
+  * [33. Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
 
 ## String
 
