@@ -8,7 +8,7 @@
 ##### Example
 >Given:
 beginWord = <span style="background-color:#ffe6e6"><font color=#cc0000 >"hit"</font></span>
-<br>endWord = <span style="background-color:#ffe6e6"><font color=#cc0000 >"cog"</font></span>
+<br>enddWord = <span style="background-color:#ffe6e6"><font color=#cc0000 >"cog"</font></span>
 wordList = <span style="background-color:#ffe6e6"><font color=#cc0000 >["hot","dot","dog","lot","log","cog"]</font></span>
 As one shortest transformation is <span style="background-color:#ffe6e6"><font color=#cc0000 >"hit" -> "hot" -> "dot" -> "dog" -> "cog"</font></span>,
 return its length <span style="background-color:#ffe6e6"><font color=#cc0000 >5</font></span>.
