@@ -1,8 +1,3 @@
-# Summary
-
-* [Introduction](README.md)
-* [Content](content.md)
-
 ## String
 
 * [Hash Table](hash-table.md)
