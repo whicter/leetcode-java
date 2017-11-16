@@ -3,6 +3,10 @@
 * [Introduction](README.md)
 * [Content](content.md)
 
+## Array
+
+* [Rotate Array](array/array-rotation.md)
+
 ## Binary Tree
 
 * [Element finding](binary-tree/find-an-element-in-the-tree.md)
