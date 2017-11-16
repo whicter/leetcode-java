@@ -11,7 +11,11 @@
 ## BFS & DFS
 
 * [BFS Summary](bfs-and-dfs/bfs-summary.md)
-  * [127.Word Ladder](127word-ladder.md)
+  * [100. Same Tree](same-tree.md)
+  * [127. Word Ladder](127word-ladder.md)
+* [DFS Summary](bfs-and-dfs/dfs-summary.md)
+  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
+  * [301. Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
 
 ## Divide and Conquer
 
@@ -28,6 +32,8 @@
 
 * Summary
 * [1. Two Sum](hash/two-sum.md)
+* [242. Valid Anagram](chapter1.md)
+* [451. Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
 
 ## Linked List
 
@@ -42,8 +48,8 @@
 
 ## String
 
-* [Hash Table](hash-table.md)
-  * [242. Valid Anagram](chapter1.md)
+* [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
+  * [76. Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
 
 ## Merge K Sorted Lists
 
