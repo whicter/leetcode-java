@@ -38,18 +38,18 @@
 ## Linked List
 
 * [Node swap](linked-list/summary.md)
-  * [25. Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
+  * [Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
 * [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
   * [Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
 
 ## Search
 
 * Binary Search
-  * [4. Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
-  * [33. Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
+  * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
+  * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
 
 ## String
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
-  * [76. Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+  * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
 
