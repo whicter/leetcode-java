@@ -6,6 +6,7 @@
 ## Array
 
 * [Merge Intervals](array/merge-intervals.md)
+* [Insert Interval](array/insert-interval.md)
 * [Rotate Array](array/array-rotation.md)
 
 ## Binary Tree
