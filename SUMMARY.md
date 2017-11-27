@@ -1,7 +1,6 @@
 # Summary
 
 * [Introduction](README.md)
-* [Content](content.md)
 
 ## Array
 
@@ -37,7 +36,7 @@
 
 ## Hash
 
-* Summary
+* [Summary](hash/summary.md)
   * [Two Sum](hash/two-sum.md)
   * [Valid Anagram](chapter1.md)
   * [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
