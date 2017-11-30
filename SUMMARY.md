@@ -53,6 +53,7 @@
 * Binary Search
   * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
   * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
+  * [Search for a Range](search/search-for-a-range.md)
 
 ## String
 
