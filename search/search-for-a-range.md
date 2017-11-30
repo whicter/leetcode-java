@@ -11,7 +11,7 @@
 <br>return <span style="background-color:#ffe6e6"><font color=#cc0000 >
 [3, 4]</font></span>.
 
-[原题链接](https://leetcode.com/problems/search-in-rotated-sorted-array/description/)
+[原题链接](https://leetcode.com/problems/search-for-a-range/description/)
 
 ### 解题思路
 Binary Search的变体，第一次找到最左边，第二次找最右边。关键部分代码如下：
