@@ -12,7 +12,8 @@
 
 * [Element finding](binary-tree/find-an-element-in-the-tree.md)
   * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
-* Tree Traversal By Level
+* [Tree Traversal By Level](binary-tree/tree-traversal-by-level.md)
+  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
 
 ## BFS & DFS
 
