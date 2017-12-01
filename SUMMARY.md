@@ -18,7 +18,6 @@
 ## BFS & DFS
 
 * [BFS Summary](bfs-and-dfs/bfs-summary.md)
-  * [Same Tree](same-tree.md)
   * [Word Ladder](127word-ladder.md)
 * [DFS Summary](bfs-and-dfs/dfs-summary.md)
   * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
