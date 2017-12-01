@@ -7,7 +7,7 @@
 Two binary trees are considered the same if they are structurally identical and the nodes have the same value.
 
 
-Example 1:
+#### Example 1:
 
 Input:
 ```
@@ -19,34 +19,33 @@ Input:
  ```
 
 Output: true
-Example 2:
+
+#### Example 2:
 
 Input:
+```
            1         1
           /           \
          2             2
 
         [1,2],     [1,null,2]
+```
 
 Output: false
 Example 3:
 
-Input: 
+Input:
+```
            1         1
           / \       / \
          2   1     1   2
 
         [1,2,1],   [1,1,2]
+```
 
 Output: false
 
-            3  
-　　　　/　　　　　　　　\  
-　　　　5　　　　　　　　　1  
-　　/　　　　 　　　/　　　　\  
-　　6　　　　2　　　0　　　　　8  
-　　　　　　/　\  
-　　　　　　7　4
+
 
 [原题链接](https://leetcode.com/problems/same-tree/description/)
 
