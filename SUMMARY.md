@@ -31,7 +31,7 @@
 
 ## Dynamic Programming
 
-* Summary
+* [Summary](dynamic-programming/summary.md)
   * [Edit Distance](edit-distance.md)
   * [Word Break](word-break.md)
 
