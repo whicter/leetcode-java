@@ -55,7 +55,10 @@ class Solution {
         TreeNode left = lowestCommonAncestor(root.left, p, q);
         TreeNode right = lowestCommonAncestor(root.right, p, q);
 
-        return left != null && right != null ? root : left == null ? right : left; 
+        if (left == null) return right;
+        if (right == null) return left;
+
+        return root;
     }
 }
 ```
