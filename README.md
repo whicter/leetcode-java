@@ -36,7 +36,7 @@ Under construction...
 
 ## Hash
 
-* Summary
+* [Summary](hash/summary.md)
   * [Two Sum](hash/two-sum.md)
   * [Valid Anagram](chapter1.md)
   * [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
@@ -50,12 +50,17 @@ Under construction...
 
 ## Search
 
-* Binary Search
+* [Binary Search](search/binary-search.md)
   * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
   * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
+  * [Search for a Range](search/search-for-a-range.md)
+  * [First Bad Version](search/first-bad-version.md)
 
 ## String
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+
+
+
 
