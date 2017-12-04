@@ -11,15 +11,6 @@ x^x = 0, x^0 = x and XOR operator is commutative
 #### Java代码实现
 
 ```java
-/**
- * Definition for an interval.
- * public class Interval {
- *     int start;
- *     int end;
- *     Interval() { start = 0; end = 0; }
- *     Interval(int s, int e) { start = s; end = e; }
- * }
- */
 class Solution {
     public int singleNumber(int[] nums) {
         int result = 0;
@@ -32,8 +23,3 @@ class Solution {
     }
 }
 ```
-
-
-
-
-
