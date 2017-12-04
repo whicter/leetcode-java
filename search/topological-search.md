@@ -16,8 +16,11 @@
 ![](/assets/Topological Sorting.png)
 For example, a topological sorting of the following graph is “5 4 2 3 1 0”. There can be more than one topological sorting for a graph. For example, another topological sorting of the following graph is “4 5 2 3 1 0”. The first vertex in topological sorting is always a vertex with in-degree as 0 (a vertex with no in-coming edges).
 
+## Applications:
+Topological Sorting is mainly used for scheduling jobs from the given dependencies among jobs. 
+<br>In computer science, applications of this type arise in instruction scheduling, ordering of formula cell evaluation when recomputing formula values in spreadsheets, logic synthesis, determining the order of compilation tasks to perform in makefiles, data serialization, and resolving symbol dependencies in linkers
 
-## Solution
+## Implementation
 对于拓扑排序来说， 我们的中心思想是要我们可以找到一个顺序，每一次我们可以进行的工序是现在没有先序依赖的工序，按照这个顺序可以流畅的完成我们的任务。如果从图论的角度来说，实际上是从一个点遍历整个图，并且遍历图的时候，下次可以遍历的点是入度为0的点，而我们遍历的顺序就是我们所要求的拓扑排序的顺序。
 
 
