@@ -64,11 +64,13 @@ Under construction...
   * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
   * [Search for a Range](search/search-for-a-range.md)
   * [First Bad Version](search/first-bad-version.md)
+* [Topological Search](search/topological-search.md)
 
 ## String
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+
 
 
 
