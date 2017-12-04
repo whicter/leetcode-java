@@ -29,7 +29,7 @@
 * [Summary](bit-manipulation/summary.md)
 * [Single Number](bit-manipulation/single-number.md)
 * [Single Number II](bit-manipulation/single-number-ii.md)
-* [Single Number III](bit-manipulation/single-number-ii.md)
+* [Single Number III](bit-manipulation/single-number-iii.md)
 
 ## Divide and Conquer
 

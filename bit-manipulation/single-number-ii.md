@@ -1,4 +1,4 @@
-# 137. Single Number III
+# 137. Single Number II
 ### 题目描述
 
 >Given an array of integers, every element appears three times except for one, which appears exactly once. Find that single one.
@@ -33,25 +33,24 @@ result = 9
 
 ```java
 class Solution {
-    public int singleNumber(int[] nums) {
-        int i, j, bit, result = 0;
-
-        for (i = 0; i < 32; i++) {
-            for (j = bit = 0; j < nums.length; j++) {
-                // if ith digit from right of num[j] is 1, then bit++
-                if (((nums[j] >> i) & 1) == 1) {
-                    bit++;
-                }
-            }
-            // System.out.println("i = " + i + ", j = " + j + ", bit = " + bit);
-          
-            bit = bit % 3;
-           
-            result |= bit << i;
-            //System.out.println("result = " + result);
+    public int[] singleNumber(int[] nums) {
+        int xorResult = 0;
+        
+        for (int i = 0; i < nums.length; i++) {
+            xorResult ^= nums[i];
         }
-
-        return result;
+        int bit = xorResult & ~(xorResult - 1);
+        
+        int num1 = 0, num2 = 0;
+        for (int num : nums) {
+            if ((num & bit) == 0) {
+                num1 ^= num;
+            } else {
+                num2 ^= num;
+            }
+        }
+        
+        return new int[]{num1, num2};
     }
 }
 ```
