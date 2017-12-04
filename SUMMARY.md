@@ -8,13 +8,6 @@
 * [Insert Interval](array/insert-interval.md)
 * [Rotate Array](array/array-rotation.md)
 
-## Binary Tree
-
-* [Element finding](binary-tree/find-an-element-in-the-tree.md)
-  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
-* [Tree Traversal By Level](binary-tree/tree-traversal-by-level.md)
-  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
-
 ## BFS & DFS
 
 * [BFS Summary](bfs-and-dfs/bfs-summary.md)
@@ -23,6 +16,18 @@
   * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
   * [Number of Islands](bfs-and-dfs/number-of-islands.md)
   * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
+
+## Binary Tree
+
+* [Element finding](binary-tree/find-an-element-in-the-tree.md)
+  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
+* [Tree Traversal By Level](binary-tree/tree-traversal-by-level.md)
+  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
+
+## Bit Manipulation
+
+* [Summary](bit-manipulation/summary.md)
+* [Single Number](bit-manipulation/single-number.md)
 
 ## Divide and Conquer
 
