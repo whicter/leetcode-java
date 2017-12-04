@@ -8,13 +8,6 @@ Under construction...
 * [Insert Interval](array/insert-interval.md)
 * [Rotate Array](array/array-rotation.md)
 
-## Binary Tree
-
-* [Element finding](binary-tree/find-an-element-in-the-tree.md)
-  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
-* [Tree Traversal By Level](binary-tree/tree-traversal-by-level.md)
-  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
-
 ## BFS & DFS
 
 * [BFS Summary](bfs-and-dfs/bfs-summary.md)
@@ -24,6 +17,21 @@ Under construction...
   * [Number of Islands](bfs-and-dfs/number-of-islands.md)
   * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
 
+## Binary Tree
+
+* [Element finding](binary-tree/find-an-element-in-the-tree.md)
+  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
+* [Tree Traversal By Level](binary-tree/tree-traversal-by-level.md)
+  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
+
+## Bit Manipulation
+
+* [Summary](bit-manipulation/summary.md)
+* [Single Number](bit-manipulation/single-number.md)
+* [Single Number II](bit-manipulation/single-number-ii.md)
+* [Single Number III](bit-manipulation/single-number-iii.md)
+* [Missing Number](bit-manipulation/missing-number.md)
+
 ## Divide and Conquer
 
 * [Summary](divide-and-conquer/summary.md)
@@ -31,7 +39,7 @@ Under construction...
 
 ## Dynamic Programming
 
-* Summary
+* [Summary](dynamic-programming/summary.md)
   * [Edit Distance](edit-distance.md)
   * [Word Break](word-break.md)
 
@@ -61,6 +69,8 @@ Under construction...
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+
+
 
 
 
