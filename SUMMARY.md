@@ -30,6 +30,7 @@
 * [Single Number](bit-manipulation/single-number.md)
 * [Single Number II](bit-manipulation/single-number-ii.md)
 * [Single Number III](bit-manipulation/single-number-iii.md)
+* [Missing Number](bit-manipulation/missing-number.md)
 
 ## Divide and Conquer
 
