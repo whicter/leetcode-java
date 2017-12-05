@@ -94,6 +94,12 @@ User Table
 | password | varchar |
 
 Friendship Table
+| relationshipId   | integer     |   
+| from_userId      | foreign key |
+| to_userId        | foreign key |
+
+
+
 relationshipId	integer
 from_userId	foreign key
 to_userId	foreign key
