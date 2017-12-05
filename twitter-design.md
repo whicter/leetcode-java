@@ -92,6 +92,7 @@ User Table
 | username | varchar |
 | email    | varchar |
 | password | varchar |
+
 Friendship Table
 relationshipId	integer
 from_userId	foreign key
