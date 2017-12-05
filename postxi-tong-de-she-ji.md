@@ -1,3 +1,8 @@
+## Post 系统的设计
+
+### Resource
+https://goo.gl/YBtKdA
+
 实现前5分钟，1小时，24小时内分享最多的post的系统
 
 这个题是一个很好的面试题，因为可以从算法和系统两个角度进行考察。
@@ -20,7 +25,7 @@
 这个数据结构来自 LFU 的论文：
 http://dhruvbird.com/lfu.pdf
 LintCode上有LFU的题， 可以做一下：
-www.lintcode.com/problem/lfu-cache
+http://www.lintcode.com/en/problem/lfu-cache/
 
 ### 从系统设计的角度分析
 所以一般来说，你可能首先需要按照 LFU 的思路答出上述的方法。这个就过了第一关，算法关。但是还没结束，这个题还有第二关，那就是系统设计关。上面的算法从算法的角度没办法更优了，每个分享操作都是O(1)的代价，每个求Top K都是O(k)的代价。已经很棒了。但是系统的角度出发，会存在这样一些问题：
