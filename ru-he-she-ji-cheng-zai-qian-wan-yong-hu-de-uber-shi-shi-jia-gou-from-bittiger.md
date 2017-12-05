@@ -9,7 +9,7 @@ https://goo.gl/nbwQy3
 欢迎回看本文原始视频：
 http://t.cn/RYn1mMm
 
-今天我们解读的是Uber的首席架构师Matt Ranney所分享的Uber实时架构的从1到万。也欢迎大家阅读上一期文章：Uber实时架构的从0到1
+今天我们解读的是Uber的首席架构师Matt Ranney所分享的Uber实时架构的从1到万。也欢迎大家阅读上一期文章：[Uber实时架构的从0到1](https://goo.gl/DbCxQc)
 
 首先，Uber是什么？Uber是连接乘客和司机的交通平台，它专注的是运输业。当我们输入自己的位置，然后请求一辆车，Uber可以马上满足我们的需求。
 
