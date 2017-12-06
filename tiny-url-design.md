@@ -1,3 +1,8 @@
+# TinyURL 设计短网址系统
+
+# Reference:
+https://segmentfault.com/a/1190000006140476
+
 ---
 ## S场景:
 ---
