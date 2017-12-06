@@ -45,9 +45,9 @@
 #### Step 2 -- Predict
 
 - Concurrent Users -- 并发用户
-- - Avg Concurrent Users = 日活跃用户数量 * 每个用户平均请求次数 / 一天多少秒 = 150M * 60 / 86400 ~= 100k
-- - 峰值：Peak Users = Avg Concurrent Users * 3 ~ 300k
-- - 快速增长的产品：Fast Growing = Peak Users * 2 ~ 600k
+    - Avg Concurrent Users = 日活跃用户数量 * 每个用户平均请求次数 / 一天多少秒 = 150M * 60 / 86400 ~= 100k
+    - 峰值：Peak Users = Avg Concurrent Users * 3 ~ 300k
+    - 快速增长的产品：Fast Growing = Peak Users * 2 ~ 600k
 - Read QPS(Queries Per Second) 读频率：300k
 - Write QPS(Queries Per Second) 写频率：5k
 
@@ -112,9 +112,9 @@ Tweet Table
 - 获取每个好友的前k条tweets，合并出k条news feed
     - K路归并算法：Merge K sorted arrays
 - 假设有N个好友，则时间为 ==>
-    N次DB Read的时间 + K路归并时间（可忽略）
+    - N次DB Read的时间 + K路归并时间（可忽略）
 - Post a tweet ==>
-    1次DB Write的时间
+    - 1次DB Write的时间
 
 ##### Pull Work Flow 原理图
 
@@ -181,10 +181,10 @@ Instagram	Pull + Push
 ### 解决Pull的缺陷 DB Reads
 - 在访问DB之前加入Cache；
 - Cache每个用户的Timeline
-    N次DB Reads，所以Cache最近的100条
+    - N次DB Reads，所以Cache最近的100条
 - Cache每个用户的News Feed
-    最近没有Cache过News Feed的用户：归并N个好友每人最近的100条Tweets，取出前100条；
-    最近Cache过的用户：归并某个时间戳之后的tweets
+    - 最近没有Cache过News Feed的用户：归并N个好友每人最近的100条Tweets，取出前100条；
+    - 最近Cache过的用户：归并某个时间戳之后的tweets
 
 ### 解决Push的缺陷
 - 浪费更多Disk存储空间
