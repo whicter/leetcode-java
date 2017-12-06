@@ -1,5 +1,7 @@
 Computer Science interview problems, mainly LeetCode ones with Java solutions
 
+This E-book also includes some system design questions and solutions from other postings. Reference can be found in the content
+
 Under construction... 
 
 ## Array
@@ -79,6 +81,9 @@ Under construction...
   * [Post系统的设计 ](postxi-tong-de-she-ji.md)
 * [Twitter Design](twitter-design.md)
 * [test](test.md)
+* [Tiny URL Design](tiny-url-design.md)
+
+
 
 
 
