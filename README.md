@@ -4,11 +4,14 @@ This E-book also includes some system design questions and solutions from other 
 
 Under construction... 
 
+
 ## Array
 
+* [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [Merge Intervals](array/merge-intervals.md)
 * [Insert Interval](array/insert-interval.md)
 * [Rotate Array](array/array-rotation.md)
+* [Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
 
 ## BFS & DFS
 
@@ -59,14 +62,14 @@ Under construction...
 * [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
   * [Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
 
-## Search
+## Search & Sort
 
 * [Binary Search](search/binary-search.md)
   * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
   * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
   * [Search for a Range](search/search-for-a-range.md)
   * [First Bad Version](search/first-bad-version.md)
-* [Topological Search](search/topological-search.md)
+* [Topological Sort](search/topological-search.md)
 
 ## String
 
@@ -82,6 +85,7 @@ Under construction...
 * [Twitter Design](twitter-design.md)
 * [test](test.md)
 * [Tiny URL Design](tiny-url-design.md)
+
 
 
 
