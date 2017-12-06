@@ -1,3 +1,6 @@
+## Resource
+https://segmentfault.com/a/1190000006165097
+
 ## SNAKE分析法
 #### Scenario
 哪些功能？Feature/Interface?
@@ -15,7 +18,10 @@
 如何进化，解决缺陷，处理问题？Optimize/Special Case
 
 ## Design a Twitter
+-----------------------------------------------------------------
+
 ### Scenario
+-----------------------------------------------------------------
 
 #### Step 1 -- Enumerate 罗列功能
 
@@ -35,7 +41,9 @@
 - Follow/Unfollow
 - Register/Login
 
+-----------------------------------------------------------------
 ### Needs
+-----------------------------------------------------------------
 #### Step 1 -- Ask
 
 - DAU -- Daily Active Users -- 日活跃用户数量 -- 评价系统牛逼的标准
@@ -51,7 +59,9 @@
 - Read QPS(Queries Per Second) 读频率：300k
 - Write QPS(Queries Per Second) 写频率：5k
 
+-----------------------------------------------------------------
 ### Application -- Service/Module
+-----------------------------------------------------------------
 #### Receptionist
 
 1. User Service: Register/Login
@@ -63,8 +73,10 @@
 
 #### Merge -- 归并需求
 
+-----------------------------------------------------------------
 ### Kilobyte -- Data/Storage
-基本知识
+-----------------------------------------------------------------
+#### 基本知识
 
 **关系型数据库 SQL Database：**User Table
 **非关系型数据库 NoSQL Database：Tweets, Social Graph (Followers)**
@@ -85,26 +97,34 @@
 #### Schema
 
 - 细化Database结构
-Please Design Schema
 
-User Table
+#### Please Design Schema
+
+| User Table         |
+| ---------| ------- |
 | userId   | integer |   
 | username | varchar |
 | email    | varchar |
 | password | varchar |
 
-Friendship Table
+-----------------------------------------------------------------
+
+|       Friendship Table         |
+| -----------------| ----------- |
 | relationshipId   | integer     |   
 | from_userId      | foreign key |
 | to_userId        | foreign key |
 
+-----------------------------------------------------------------
 
-Tweet Table
+|      Tweet Table      |
+| --------| ----------- |
 | tweetId | integer     |
 | userId  | foreign key |
 | time    | timestamp   |
 | content | text        | 
 
+<br>
 ### News Feed 如何存取？
 ### Pull vs. Push （明星问题、僵尸粉问题）
 #### Pull Model
@@ -166,7 +186,12 @@ Facebook	Pull
 Twitter	Pull
 Instagram	Pull + Push
 
+-----------------------------------------------------------------
+
 ### Evolve 优化：Optimize/Maintenance
+-----------------------------------------------------------------
+
+
 #### Step 1: Optimize
 
 - Solve Problems: Push vs. Pull; Normalize vs. De-normalize
