@@ -3,6 +3,11 @@
 # Reference:
 https://segmentfault.com/a/1190000006140476
 
+> 九章系统设计 TinyURL笔记
+SN-提问:qps+容量 
+AK-画图:流程，可行解 
+E-优化:流量/存储
+
 ---
 ## S场景:
 ---
