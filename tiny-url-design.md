@@ -90,12 +90,12 @@ SQL需要程序员自己写代码来scale; NoSQL这些都是自带的(sharding,r
 
 
 综上：
-transaction? 不需要 -> nosql
-sql query? 不需要 -> nosql
-是否追求效率？ 本来也没多少代码 -> nosql
-对qps要求高？ 读2k，写200，真心不高 -> sql
-对scalability要求高？ 存储和QPS要求都不高，单机就可以了 -> sql
-要auto_increment_id? 我们的算法要！ -> sql
+- transaction? 不需要 -> nosql
+- sql query? 不需要 -> nosql
+- 是否追求效率？ 本来也没多少代码 -> nosql
+- 对qps要求高？ 读2k，写200，真心不高 -> sql
+- 对scalability要求高？ 存储和QPS要求都不高，单机就可以了 -> sql
+- 要auto_increment_id? 我们的算法要！ -> sql
 
 #### 来聊一聊系统的算法是什么，有如下方案：
 1. hash function:
