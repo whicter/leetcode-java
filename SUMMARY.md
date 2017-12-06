@@ -4,9 +4,11 @@
 
 ## Array
 
+* [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [Merge Intervals](array/merge-intervals.md)
 * [Insert Interval](array/insert-interval.md)
 * [Rotate Array](array/array-rotation.md)
+* [Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
 
 ## BFS & DFS
 
@@ -57,7 +59,7 @@
 * [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
   * [Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
 
-## Search
+## Search & Sort
 
 * [Binary Search](search/binary-search.md)
   * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
