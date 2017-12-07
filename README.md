@@ -26,7 +26,10 @@ Under construction...
 
 * [Element finding](binary-tree/find-an-element-in-the-tree.md)
   * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
-* [Tree Traversal By Level](binary-tree/tree-traversal-by-level.md)
+* [Tree Traversal](binary-tree/tree-traversal-by-level.md)
+  * [Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
+  * [Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
+  * [Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
   * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
 
 ## Bit Manipulation
@@ -45,6 +48,7 @@ Under construction...
 ## Dynamic Programming
 
 * [Summary](dynamic-programming/summary.md)
+  * [Regular Expression Matching](regular-expression-matching.md)
   * [Edit Distance](edit-distance.md)
   * [Word Break](word-break.md)
 
@@ -75,6 +79,8 @@ Under construction...
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+* Misc
+  * [Text Justification](text-justification.md)
 
 ## System Design
 
