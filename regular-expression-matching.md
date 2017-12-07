@@ -34,6 +34,7 @@ dp[i][j] 表示s的前i位和p的前j位的匹配情况，状态转移方程如�
         - dp[i][j] = dp[i - 1][j] //in this case, a* counts as multiple a
         - or dp[i][j] = dp[i][j - 1] // in this case, a* counts as single a
         - or dp[i][j] = dp[i][j - 2] // in this case, a* counts as empty
+        
 ### Java代码实现
 
 ``` java
