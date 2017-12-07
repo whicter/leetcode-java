@@ -25,6 +25,8 @@
   * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
 * [Tree Traversal](binary-tree/tree-traversal-by-level.md)
   * [Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
+  * [Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
+  * [Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
   * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
 
 ## Bit Manipulation
