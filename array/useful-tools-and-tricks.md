@@ -1,8 +1,5 @@
 # Quick Select
 
-## sample problem: 
-LeeCode 215. Kth Largest Element in an Array
-
 ```java
 public int partition(int[]nums, int leftIndex, int rightIndex) {
         int pivot = nums[rightIndex];
@@ -18,3 +15,8 @@ public int partition(int[]nums, int leftIndex, int rightIndex) {
         return partition;
     }
 ```
+**Sample problem:** LeeCode 215. Kth Largest Element in an Array
+
+
+
+
