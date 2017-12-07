@@ -25,8 +25,6 @@ return [3,2,1].
     step 2: right -> root
     step 3: left -> root
 
-http://blog.csdn.net/WangT443/article/details/51863846
-
 #### Java代码实现
 ``` java
 /**
