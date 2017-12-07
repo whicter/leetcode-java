@@ -20,6 +20,10 @@ return [3,2,1].
 [原题链接](https://leetcode.com/problems/binary-tree-postorder-traversal/description/)
 
 ### 解题思路
+为了保证不丢失根节点信息，所以依然会将当前节点加入结果集后再做DFS。但是为了保证是后序，所以结果集是用LinkedList而非ArrayList来储存结果——每次将节点加在第一位。也正因为如此，进栈的节点变为右子树而非左子树。简单流程如下所示：
+    step 1: root
+    step 2: right -> root
+    step 3: left -> root
 
 http://blog.csdn.net/WangT443/article/details/51863846
 
