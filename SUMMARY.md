@@ -76,6 +76,8 @@
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+* Misc
+  * [Text Justification](text-justification.md)
 
 ## System Design
 
