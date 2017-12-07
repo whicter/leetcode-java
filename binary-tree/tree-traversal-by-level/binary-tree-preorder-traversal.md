@@ -24,6 +24,8 @@ return [1,2,3].
 和之前中序遍历稍有不同的是，每次进栈完便把当前的节点放入结果集中后才对左子树进行DFS
 
 #### Java代码实现
+
+##### Iteration Solution
 ``` java
 /**
  * Definition for a binary tree node.
@@ -52,7 +54,33 @@ class Solution {
         return result;
     }
 }
+
 ```
+
+##### recursion Solution
+
+```java
+public class Solution {
+    public ArrayList<Integer> preorderTraversal(TreeNode root) {
+        List<Integer> result = new ArrayList<Integer>();
+        // null or leaf
+        if (root == null) {
+            return result;
+        }
+
+        // Divide
+        List<Integer> left = preorderTraversal(root.left);
+        List<Integer> right = preorderTraversal(root.right);
+
+        // Conquer
+        result.add(root.val);
+        result.addAll(left);
+        result.addAll(right);
+        return result;
+    }
+}
+```
+
 
 ### Reference
 https://discuss.leetcode.com/topic/30632/preorder-inorder-and-postorder-iteratively-summarization

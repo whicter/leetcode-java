@@ -12,14 +12,12 @@
 
 ### 解题思路
 不需要记录具体结果同时大问题可以被分割成小问题，符合DP特征
+
+递归有重复计算：当在循环到时候，会多次计算从i到j的子序列是否存在于字典中。故而考虑使用DP： dp(i) = dp(j) && s[j, i) in dict
+
 ###  Java代码实现
 
 ``` java
-
-/*
-    递归有重复计算：当在循环到时候，会多次计算从i到j的子序列是否存在于字典中
-    故而考虑使用DP： dp(i) = dp(j) && s[j, i) in dict
-*/
 class Solution {
     public boolean wordBreak(String s, List<String> wordDict) {
         if (wordDict == null || wordDict.isEmpty()) {
