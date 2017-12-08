@@ -76,8 +76,12 @@
 
 * [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
   * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
-* Misc
+* [Misc](misc.md)
   * [Text Justification](text-justification.md)
+
+## Two Pointers
+
+* Container With Most Water
 
 ## System Design
 
