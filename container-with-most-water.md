@@ -15,6 +15,14 @@ Note: You may not slant the container and n is at least 2.
 - 左低右高移动左
 - 左高右低移动右
 
+理由：
+假设hL < hR, 储水量为hL * (R - L)
+假如hR --, 获得的新高度为hR'
+- 如果hR' < hL, 新的结果为: hR' * (R' - L);
+- 如果hR' > hL, 新的结果为: hL * (R' - L);
+
+无论哪个结果都不会带来更大的储水量，因此应该操作hL ++来找寻新的可能
+
 ###  Java代码实现
 
 ``` java
