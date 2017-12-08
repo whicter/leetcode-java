@@ -87,7 +87,7 @@
 
 * Uber Design
   * [如何设计承载千万用户的Uber实时架构 From BitTiger](ru-he-she-ji-cheng-zai-qian-wan-yong-hu-de-uber-shi-shi-jia-gou-from-bittiger.md)
-* Top K Frequent Elements in Recent X mins.
+* [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
   * [Post系统的设计 ](postxi-tong-de-she-ji.md)
 * [Twitter Design](twitter-design.md)
 * [test](test.md)
