@@ -31,7 +31,7 @@
 
 ## Bit Manipulation
 
-* [Summary](bit-manipulation/summary.md)
+* [Bit Manipulation Summary](bit-manipulation/summary.md)
 * [Single Number](bit-manipulation/single-number.md)
 * [Single Number II](bit-manipulation/single-number-ii.md)
 * [Single Number III](bit-manipulation/single-number-iii.md)
@@ -39,7 +39,7 @@
 
 ## Dynamic Programming
 
-* [Summary](dynamic-programming/summary.md)
+* [DP Summary](dynamic-programming/summary.md)
   * [Regular Expression Matching](regular-expression-matching.md)
   * [Edit Distance](edit-distance.md)
   * [Word Break](word-break.md)
@@ -81,6 +81,7 @@
 
 ## Two Pointers
 
+* [Summary](summary.md)
 * [Container With Most Water](container-with-most-water.md)
 * [test](test.md)
 
