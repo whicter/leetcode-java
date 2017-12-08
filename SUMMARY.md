@@ -74,7 +74,7 @@
 
 ## String
 
-* Text Justification
+* [Text Justification](text-justification.md)
 
 ## Two Pointers
 
