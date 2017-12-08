@@ -74,16 +74,13 @@
 
 ## String
 
-* [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
-  * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
-* [Misc](misc.md)
-  * [Text Justification](text-justification.md)
+* Text Justification
 
 ## Two Pointers
 
-* [Summary](summary.md)
+* [Summary](two-pointers-summary.md)
 * [Container With Most Water](container-with-most-water.md)
-* [test](test.md)
+* [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
 
 ## System Design
 
