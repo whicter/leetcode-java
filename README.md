@@ -4,7 +4,6 @@ This E-book also includes some system design questions and solutions from other 
 
 Under construction... 
 
-
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
@@ -40,11 +39,6 @@ Under construction...
 * [Single Number III](bit-manipulation/single-number-iii.md)
 * [Missing Number](bit-manipulation/missing-number.md)
 
-## Divide and Conquer
-
-* [Summary](divide-and-conquer/summary.md)
-  * [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
-
 ## Dynamic Programming
 
 * [Summary](dynamic-programming/summary.md)
@@ -58,6 +52,11 @@ Under construction...
   * [Two Sum](hash/two-sum.md)
   * [Valid Anagram](chapter1.md)
   * [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
+
+## Heap
+
+* [Summary](divide-and-conquer/summary.md)
+  * [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
 
 ## Linked List
 
@@ -91,10 +90,6 @@ Under construction...
 * [Twitter Design](twitter-design.md)
 * [test](test.md)
 * [Tiny URL Design](tiny-url-design.md)
-
-
-
-
 
 
 
