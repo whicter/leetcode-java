@@ -26,6 +26,7 @@ return [3,2,1].
     step 3: left -> root
 
 #### Java代码实现
+##### Iteration
 ``` java
 /**
  * Definition for a binary tree node.
@@ -53,6 +54,25 @@ class Solution {
         }
         return result;
     }
+    
+```
+
+##### Recursion
+``` java
+//Recursive
+public ArrayList<Integer> postorderTraversal(TreeNode root) {
+    ArrayList<Integer> result = new ArrayList<Integer>();
+
+    if (root == null) {
+        return result;
+    }
+
+    result.addAll(postorderTraversal(root.left));
+    result.addAll(postorderTraversal(root.right));
+    result.add(root.val);
+
+    return result;   
+}
 ```
 
 ### Reference

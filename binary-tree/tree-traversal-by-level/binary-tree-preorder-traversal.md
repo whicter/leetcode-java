@@ -25,7 +25,7 @@ return [1,2,3].
 
 #### Java代码实现
 
-##### Iteration Solution
+##### Iteration
 ``` java
 /**
  * Definition for a binary tree node.
@@ -57,7 +57,7 @@ class Solution {
 
 ```
 
-##### recursion Solution
+##### Recursion
 
 ```java
 public class Solution {
