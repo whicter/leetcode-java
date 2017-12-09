@@ -40,10 +40,10 @@
 
 ## Dynamic Programming
 
+* [Regular Expression Matching](regular-expression-matching.md)
+* [Edit Distance](edit-distance.md)
+* [Word Break](word-break.md)
 * [DP Summary](dynamic-programming/summary.md)
-  * [Regular Expression Matching](regular-expression-matching.md)
-  * [Edit Distance](edit-distance.md)
-  * [Word Break](word-break.md)
 
 ## Hash
 
