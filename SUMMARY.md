@@ -81,6 +81,7 @@
 ## Two Pointers
 
 * [Summary](two-pointers-summary.md)
+* [3Sum](3sum.md)
 * [Container With Most Water](container-with-most-water.md)
 * [Trapping Rain Water](trapping-rain-water.md)
 * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
