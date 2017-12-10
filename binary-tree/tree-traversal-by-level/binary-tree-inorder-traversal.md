@@ -24,6 +24,7 @@ return [1,3,2].
 用迭代法解决二叉树通常都会考虑用stack。每次将当前节点入栈后DFS左节点。当左边节点全部进栈完毕后我们才逐个出栈并加入最终结果集可以保证中序遍历
 
 #### Java代码实现
+##### Iteration
 ``` java
 /**
  * Definition for a binary tree node.
@@ -50,6 +51,23 @@ class Solution {
             }
         }
         return result;
+    }
+}
+```
+##### Recursion
+``` java
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        inorderTraversal(root, res);
+        return res;
+    }
+    public void inorderTraversal(TreeNode root, List<Integer> res){
+        if (root != null) {
+            inorderTraversal(root.left, res);
+            res.add(root.val);
+            inorderTraversal(root.right, res);
+        }
     }
 }
 ```
