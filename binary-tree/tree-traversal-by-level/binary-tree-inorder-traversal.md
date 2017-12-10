@@ -37,9 +37,9 @@ return [1,3,2].
 class Solution {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new ArrayList<>();
-        Deque<TreeNode> stack = new ArrayDeque<>();
+        Stack<TreeNode> stack = new Stack<>();
         TreeNode walk = root;
-        while(!stack.isEmpty() || walk != null) {
+        while (!stack.isEmpty() || walk != null) {
             if (walk != null) {
                 stack.push(walk);
                 walk = walk.left;
