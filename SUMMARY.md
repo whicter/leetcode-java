@@ -29,6 +29,7 @@
   * [Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
   * [Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
   * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
+  * [Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
 
 ## Bit Manipulation
 
