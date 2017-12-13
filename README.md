@@ -14,12 +14,13 @@ Under construction...
 
 ## BFS & DFS
 
-* [BFS Summary](bfs-and-dfs/bfs-summary.md)
+* [BFS](bfs-and-dfs/bfs-summary.md)
   * [Word Ladder](127word-ladder.md)
-* [DFS Summary](bfs-and-dfs/dfs-summary.md)
+* [DFS](bfs-and-dfs/dfs-summary.md)
   * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
   * [Number of Islands](bfs-and-dfs/number-of-islands.md)
   * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
+* [Backtracking](bfs-and-dfs/backtracking.md)
 
 ## Binary Tree
 
@@ -30,10 +31,11 @@ Under construction...
   * [Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
   * [Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
   * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
+  * [Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
 
 ## Bit Manipulation
 
-* [Summary](bit-manipulation/summary.md)
+* [Bit Manipulation Summary](bit-manipulation/summary.md)
 * [Single Number](bit-manipulation/single-number.md)
 * [Single Number II](bit-manipulation/single-number-ii.md)
 * [Single Number III](bit-manipulation/single-number-iii.md)
@@ -41,10 +43,10 @@ Under construction...
 
 ## Dynamic Programming
 
-* [Summary](dynamic-programming/summary.md)
-  * [Regular Expression Matching](regular-expression-matching.md)
-  * [Edit Distance](edit-distance.md)
-  * [Word Break](word-break.md)
+* [Regular Expression Matching](regular-expression-matching.md)
+* [Edit Distance](edit-distance.md)
+* [Word Break](word-break.md)
+* [DP Summary](dynamic-programming/summary.md)
 
 ## Hash
 
@@ -76,20 +78,26 @@ Under construction...
 
 ## String
 
-* [Two Pointers with Substring Window](two-pointers-with-substring-window.md)
-  * [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
-* Misc
-  * [Text Justification](text-justification.md)
+* [Text Justification](text-justification.md)
+
+## Two Pointers
+
+* [Summary](two-pointers-summary.md)
+* [3Sum](3sum.md)
+* [Container With Most Water](container-with-most-water.md)
+* [Trapping Rain Water](trapping-rain-water.md)
+* [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
 
 ## System Design
 
 * Uber Design
   * [如何设计承载千万用户的Uber实时架构 From BitTiger](ru-he-she-ji-cheng-zai-qian-wan-yong-hu-de-uber-shi-shi-jia-gou-from-bittiger.md)
-* Top K Frequent Elements in Recent X mins.
+* [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
   * [Post系统的设计 ](postxi-tong-de-she-ji.md)
 * [Twitter Design](twitter-design.md)
-* [test](test.md)
 * [Tiny URL Design](tiny-url-design.md)
+
+
 
 
 
