@@ -22,6 +22,9 @@ and <span style="background-color:#ffe6e6"><font color=#cc0000 >'*'</font></span
 [原题链接](https://leetcode.com/problems/regular-expression-matching/description/)
 
 ### 解题思路
+D[i][j]: 表示string s中取i长度的字串，string p中取j长度字串，进行匹配。
+D[0][0] 表示什么都不取，所以二位dp的长度应该为[s.length + 1][p.length + 1]
+
 - p[j]不是'*'。情况比较简单，只要判断如果当前s的i和p的j上的字符一样（如果有p在j上的字符是'.',也是相同），并且res[i][j]==true，则res[i + 1][j + 1]也为true，res[i + 1][j + 1]=false; 
 
 - p[j]是 '*'，但是p[j - 1] != '.'。那么只要以下条件有一个满足即可对res[i + 1][j + 1]赋值为true： 
