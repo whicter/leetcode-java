@@ -2,16 +2,16 @@
 ``` java
 /*
      * 0->1->2->3->4->5->6
-     * |           |   
-     * pre        next
+     * |              |   
+     * pre           next
      *
      * after calling pre = reverse(pre, next)
      * 
-     * 0->3->2->1->4->5->6
-     *          |  |
-     *          pre next 
+     * 0->4->3->2->1->5->6
+     *             |  |
+     *           pre next 
      */
-// reverse 1->2->3 to 3->2->1    
+// reverse 1->2->3->4 to 2->1->3->4 to 3->2->1->4 to 4->3->2->1    
 
 public ListNode reverse(ListNode pre, ListNode next) {
     ListNode last = pre.next;
