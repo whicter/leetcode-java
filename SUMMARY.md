@@ -12,6 +12,7 @@
 * [57. Insert Interval](array/insert-interval.md)
 * [189. Rotate Array](array/array-rotation.md)
 * [215. Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
+* [Remove Duplicates from Sorted Array II](array/remove-duplicates-from-sorted-array-ii.md)
 
 ## BFS & DFS
 
