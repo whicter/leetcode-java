@@ -3,8 +3,8 @@
 
 >Given a collection of intervals, merge all overlapping intervals.
 <br>For example,
-Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,3],[2,6],[8,10],[15,18]</font></span>,
-<br>return <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,6],[8,10],[15,18]</font></span>.
+Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 3], [2, 6], [8, 10], [15, 18]</font></span>,
+<br>return <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 6], [8, 10], [15, 18]</font></span>.
 
 [原题链接](https://leetcode.com/problems/merge-intervals/description/)
 
