@@ -85,7 +85,6 @@
 ## Two Pointers
 
 * Two Pointers Summary
-* 3 Sum
 
 ## System Design
 
