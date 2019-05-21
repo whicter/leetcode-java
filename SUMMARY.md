@@ -65,9 +65,10 @@
 ## Linked List
 
 * [Node swap](linked-list/summary.md)
-  * [Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
+  * [25. Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
 * [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
-  * [Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
+  * [19. Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
+* [Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
 
 ## Search & Sort
 
