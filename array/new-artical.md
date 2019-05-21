@@ -5,10 +5,6 @@
 <br>
 <br>Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 
-#
-### Example 1
->Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,3], [6,9]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[2,5]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,5], [6,9]</font></span>.  
-
 #### Example 1
 > Given nums = <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 1, 2]</font></span>,
 <br>Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
