@@ -2,67 +2,54 @@
 ### 题目描述
 
 >Given a sorted array nums, remove the duplicates in-place such that each element appear only once and return the new length.
-
 <br>
 <br>Do not allocate extra space for another array, you must do this by modifying the input array in-place with O(1) extra memory.
 
-#### Example 1
+#
+### Example 1
 >Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,3], [6,9]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[2,5]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,5], [6,9]</font></span>.  
 
+#### Example 1
+> Given nums = <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 1, 2]</font></span>,
+<br>Your function should return length = 2, with the first two elements of nums being 1 and 2 respectively.
+<br>It doesn't matter what you leave beyond the returned length.
+
 #### Example 2
->Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,2], [3,5], [6,7], [8,10], [12,16]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[4,9]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,2], [3,10], [12,16]</font></span>.  
+>Given nums = <span style="background-color:#ffe6e6"><font color=#cc0000 >[0, 0, 1, 1, 1, 2, 2, 3, 3, 4]</font></span>,
+<br>Your function should return length = 5, with the first five elements of nums being modified to 0, 1, 2, 3, and 4 respectively.
+<br>It doesn't matter what values are set beyond the returned length.
 
-
-[原题链接](https://leetcode.com/problems/insert-interval/description/)
+[原题链接](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 ### 解题思路
-不是很明白为什么这道题居然还是hard难度。题设里原有的区间不会重叠，所以就非常好办，一共有两大类情况：
-1. 当前区间和所需要插入区间完全不重叠
-    这时候又分为两个子case：
-        - 当前区间在新区间之前
-        那只需要把当前区间放入结果集即可
-        - 当前区间在新区间之后
-        那需要将新区间加入结果集之后再加入当前区间
-2. 当前区间和所需要插入区间有交集
-       此时将当前区间和新区间合并，并更新新区建值用来和下一个区间进行比较
-   
-有个corner case需要注意的是，新区间可能在过完一遍当前集合之后仍然没有插入。所以此处维护一个boolean flag inserted。一来可以在确认新区间已经插入后直接将原有区间加入结果集；二来可以在用来解决上述corner case
+明确 f[i] 的原子操作：
+假设a[0 -> i]已经处理完，无重复元素的数组长度为 len
+1. 如果 a[i] == a[len - 1]:
+    Do nothing
+2. 如果a[i] != a[len - 1]:
+    则a[len] = a[i];
+    len ++
+
+base case: 
+因为有len - 1， 所以len >= 1。所以 i 从 1 开始计数    
 
 #### Java代码实现
 
 ```java
-/**
- * Definition for an interval.
- * public class Interval {
- *     int start;
- *     int end;
- *     Interval() { start = 0; end = 0; }
- *     Interval(int s, int e) { start = s; end = e; }
- * }
- */
 class Solution {
-    public List<Interval> insert(List<Interval> intervals, Interval newInterval) {
-        if (newInterval == null) {
-            return intervals;
+    public int removeDuplicates(int[] nums) {
+        if (nums.length < 2) { 
+            return nums.length;
         }
-        List<Interval> res = new ArrayList<>();
-        boolean inserted = false; // the new interval is inserted and no further merge is required
-        for (Interval interval : intervals) {
-            if (inserted || interval.end < newInterval.start) {
-                res.add(interval);
-            } else if (interval.start > newInterval.end) {
-                res.add(newInterval);
-                inserted = true;
-                res.add(interval);
-            } else {
-                newInterval.start = Math.min(interval.start, newInterval.start);
-                newInterval.end = Math.max(interval.end, newInterval.end);
+        
+        int len = 1;
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != nums[len - 1]) {
+                nums[len] = nums[i];
+                len ++;
             }
         }
-        if (!inserted) {
-            res.add(newInterval);
-        }
-        return res;
+        return len;
     }
 }
 ```
