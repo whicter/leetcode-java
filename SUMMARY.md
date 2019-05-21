@@ -9,9 +9,9 @@
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [26. Remove Duplicates from Sorted Array](array/new-artical.md)
 * [56. Merge Intervals](array/merge-intervals.md)
-* [Insert Interval](array/insert-interval.md)
-* [Rotate Array](array/array-rotation.md)
-* [Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
+* [57. Insert Interval](array/insert-interval.md)
+* [189. Rotate Array](array/array-rotation.md)
+* [215. Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
 
 ## BFS & DFS
 
