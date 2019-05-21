@@ -45,22 +45,21 @@
 
 ## Dynamic Programming
 
+* [DP-Summary](divide-and-conquer/summary.md)
 * [Regular Expression Matching](regular-expression-matching.md)
 * [Edit Distance](edit-distance.md)
 * [Word Break](word-break.md)
-* [DP Summary](dynamic-programming/summary.md)
 
 ## Hash
 
-* [Summary](hash/summary.md)
-  * [Two Sum](hash/two-sum.md)
-  * [Valid Anagram](chapter1.md)
-  * [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
+* [Hash Table Summary](hash/hash-table-summary.md)
+* [1. Two Sum](hash/two-sum.md)
+* [242. Valid Anagram](chapter1.md)
+* [451. Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
 
 ## Heap
 
-* [Summary](divide-and-conquer/summary.md)
-  * [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
+* [21. Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
 
 ## Linked List
 
@@ -81,15 +80,12 @@
 
 ## String
 
-* [Text Justification](text-justification.md)
+* [Text Justification](string/text-justification.md)
 
 ## Two Pointers
 
-* [Summary](two-pointers-summary.md)
-* [3Sum](3sum.md)
-* [Container With Most Water](container-with-most-water.md)
-* [Trapping Rain Water](trapping-rain-water.md)
-* [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+* Two Pointers Summary
+* 3 Sum
 
 ## System Design
 
