@@ -17,11 +17,11 @@
 ## BFS & DFS
 
 * [BFS](bfs-and-dfs/bfs-summary.md)
-  * [Word Ladder](127word-ladder.md)
+  * [127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
-  * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
-  * [Number of Islands](bfs-and-dfs/number-of-islands.md)
-  * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
+  * [Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
+  * [Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
+  * [Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
 
 ## Binary Tree
