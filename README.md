@@ -21,9 +21,9 @@ Under construction...
 * [BFS](bfs-and-dfs/bfs-summary.md)
   * [127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
-  * [Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
-  * [Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
-  * [Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
+  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
+  * [200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
+  * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
 
 ## Binary Tree
@@ -74,10 +74,10 @@ Under construction...
 ## Search & Sort
 
 * [Binary Search](search/binary-search.md)
-  * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
-  * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
-  * [Search for a Range](search/search-for-a-range.md)
-  * [First Bad Version](search/first-bad-version.md)
+  * [4. Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
+  * [33. Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
+  * [34. Search for a Range](search/search-for-a-range.md)
+  * [278. First Bad Version](search/first-bad-version.md)
 * [Topological Sort](search/topological-search.md)
 
 ## String
@@ -95,14 +95,13 @@ Under construction...
 ## System Design
 
 * Uber Design
-  * [如何设计承载千万用户的Uber实时架构 From BitTiger](ru-he-she-ji-cheng-zai-qian-wan-yong-hu-de-uber-shi-shi-jia-gou-from-bittiger.md)
+  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger)
 * [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
-  * [Post系统的设计 ](postxi-tong-de-she-ji.md)
-* [Twitter Design](twitter-design.md)
-* [Tiny URL Design](tiny-url-design.md)
-* [test1](system-design/test1.md)
-* [test2](system-design/test2.md)
-* [test3](test3.md)
+  * [Post系统的设计 ](system-design/top-k/post-system-design.md)
+* [Twitter Design](system-design/twitter-design.md)
+* [Tiny URL Design](system-design/twitter-design.md)
+
+
 
 
 

@@ -19,9 +19,9 @@
 * [BFS](bfs-and-dfs/bfs-summary.md)
   * [127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
-  * [Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
-  * [Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
-  * [Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
+  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
+  * [200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
+  * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
 
 ## Binary Tree
@@ -72,10 +72,10 @@
 ## Search & Sort
 
 * [Binary Search](search/binary-search.md)
-  * [Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
-  * [Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
-  * [Search for a Range](search/search-for-a-range.md)
-  * [First Bad Version](search/first-bad-version.md)
+  * [4. Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
+  * [33. Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
+  * [34. Search for a Range](search/search-for-a-range.md)
+  * [278. First Bad Version](search/first-bad-version.md)
 * [Topological Sort](search/topological-search.md)
 
 ## String
