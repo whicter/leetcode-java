@@ -10,9 +10,9 @@
 * [26. Remove Duplicates from Sorted Array](array/new-artical.md)
 * [56. Merge Intervals](array/merge-intervals.md)
 * [57. Insert Interval](array/insert-interval.md)
+* [Remove Duplicates from Sorted Array II](array/remove-duplicates-from-sorted-array-ii.md)
 * [189. Rotate Array](array/array-rotation.md)
 * [215. Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
-* [Remove Duplicates from Sorted Array II](array/remove-duplicates-from-sorted-array-ii.md)
 
 ## BFS & DFS
 
