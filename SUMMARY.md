@@ -84,7 +84,7 @@
 
 ## Two Pointers
 
-* Two Pointers Summary
+* [Two Pointers Summary](two-pointers/two-pointers-summary.md)
 
 ## System Design
 
