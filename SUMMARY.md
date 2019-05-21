@@ -7,7 +7,7 @@
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
-* [26. Remove Duplicates from Sorted Array](array/new-artical.md)
+* [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
 * [57. Insert Interval](array/insert-interval.md)
 * [80. Remove Duplicates from Sorted Array II](array/remove-duplicates-from-sorted-array-ii.md)
@@ -64,10 +64,10 @@
 
 ## Linked List
 
-* [Node swap](linked-list/summary.md)
-  * [25. Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
 * [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
   * [19. Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
+* [Node swap](linked-list/node-swap.md)
+  * [25. Reverse Nodes in K-Group](linked-list/node-swap/reverse-nodes-in-k-group.md)
 * [82. Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
 
 ## Search & Sort
