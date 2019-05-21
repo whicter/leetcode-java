@@ -7,7 +7,8 @@
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
-* [Merge Intervals](array/merge-intervals.md)
+* [26. Remove Duplicates from Sorted Array](array/new-artical.md)
+* [56. Merge Intervals](array/merge-intervals.md)
 * [Insert Interval](array/insert-interval.md)
 * [Rotate Array](array/array-rotation.md)
 * [Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
