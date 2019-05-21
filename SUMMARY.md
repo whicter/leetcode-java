@@ -26,14 +26,14 @@
 
 ## Binary Tree
 
-* [Element finding](binary-tree/find-an-element-in-the-tree.md)
-  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
+* [Element finding](binary-tree/find-an-element-in-the-tree/find-an-element-in-the-tree.md)
+  * [236. Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/lowest-common-ancestor-of-a-binary-tree.md)
 * [Tree Traversal](binary-tree/tree-traversal-by-level.md)
-  * [Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
-  * [Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
-  * [Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
-  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
-  * [Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
+  * [94. Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
+  * [100. Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
+  * [144. Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
+  * [145. Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
+  * [297. Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
 
 ## Bit Manipulation
 
@@ -46,15 +46,15 @@
 ## Dynamic Programming
 
 * [DP-Summary](divide-and-conquer/summary.md)
-* [Regular Expression Matching](regular-expression-matching.md)
-* [Edit Distance](edit-distance.md)
-* [Word Break](word-break.md)
+* [Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
+* [Edit Distance](dynamic-programming/edit-distance.md)
+* [Word Break](dynamic-programming/word-break.md)
 
 ## Hash
 
 * [Hash Table Summary](hash/hash-table-summary.md)
 * [1. Two Sum](hash/two-sum.md)
-* [242. Valid Anagram](chapter1.md)
+* [242. Valid Anagram](hash/valid-anagram.md)
 * [451. Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
 
 ## Heap
@@ -93,9 +93,9 @@
 ## System Design
 
 * Uber Design
-  * [如何设计承载千万用户的Uber实时架构 From BitTiger](ru-he-she-ji-cheng-zai-qian-wan-yong-hu-de-uber-shi-shi-jia-gou-from-bittiger.md)
+  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger)
 * [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
-  * [Post系统的设计 ](postxi-tong-de-she-ji.md)
-* [Twitter Design](twitter-design.md)
-* [Tiny URL Design](tiny-url-design.md)
+  * [Post系统的设计 ](system-design/top-k/post-system-design.md)
+* [Twitter Design](system-design/twitter-design.md)
+* [Tiny URL Design](system-design/twitter-design.md)
 

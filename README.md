@@ -12,30 +12,30 @@ Under construction...
 * [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
 * [57. Insert Interval](array/insert-interval.md)
-* [80. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array-ii.md)
+* [80. Remove Duplicates from Sorted Array II](array/remove-duplicates-from-sorted-array-ii.md)
 * [189. Rotate Array](array/array-rotation.md)
 * [215. Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
 
 ## BFS & DFS
 
 * [BFS](bfs-and-dfs/bfs-summary.md)
-  * [Word Ladder](127word-ladder.md)
+  * [127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
-  * [Maximum Depth of Binary Tree](bfs-and-dfs/maximum-depth-of-binary-tree.md)
-  * [Number of Islands](bfs-and-dfs/number-of-islands.md)
-  * [Remove Invalid Parentheses](bfs-and-dfs/remove-invalid-parentheses.md)
+  * [Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
+  * [Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
+  * [Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
 
 ## Binary Tree
 
-* [Element finding](binary-tree/find-an-element-in-the-tree.md)
-  * [Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/leetcode-236-lowest-common-ancestor-of-a-binary-tree.md)
+* [Element finding](binary-tree/find-an-element-in-the-tree/find-an-element-in-the-tree.md)
+  * [236. Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/lowest-common-ancestor-of-a-binary-tree.md)
 * [Tree Traversal](binary-tree/tree-traversal-by-level.md)
-  * [Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
-  * [Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
-  * [Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
-  * [Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
-  * [Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
+  * [94. Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
+  * [100. Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
+  * [144. Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
+  * [145. Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
+  * [297. Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
 
 ## Bit Manipulation
 
@@ -47,30 +47,29 @@ Under construction...
 
 ## Dynamic Programming
 
-* [Regular Expression Matching](regular-expression-matching.md)
-* [Edit Distance](edit-distance.md)
-* [Word Break](word-break.md)
-* [DP Summary](dynamic-programming/summary.md)
+* [DP-Summary](divide-and-conquer/summary.md)
+* [Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
+* [Edit Distance](dynamic-programming/edit-distance.md)
+* [Word Break](dynamic-programming/word-break.md)
 
 ## Hash
 
-* [Summary](hash/summary.md)
-  * [Two Sum](hash/two-sum.md)
-  * [Valid Anagram](chapter1.md)
-  * [Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
+* [Hash Table Summary](hash/hash-table-summary.md)
+* [1. Two Sum](hash/two-sum.md)
+* [242. Valid Anagram](hash/valid-anagram.md)
+* [451. Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
 
 ## Heap
 
-* [Summary](divide-and-conquer/summary.md)
-  * [Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
+* [21. Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
 
 ## Linked List
 
-* [Node swap](linked-list/node-swap.md)
-  * [25. Reverse Nodes in k-Group](linked-list/reverse-nodes-in-k-group.md)
 * [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
   * [19. Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
-* [82. Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)  
+* [Node swap](linked-list/node-swap.md)
+  * [25. Reverse Nodes in K-Group](linked-list/node-swap/reverse-nodes-in-k-group.md)
+* [82. Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
 
 ## Search & Sort
 
@@ -83,15 +82,15 @@ Under construction...
 
 ## String
 
-* [Text Justification](text-justification.md)
+* [Text Justification](string/text-justification.md)
 
 ## Two Pointers
 
-* [Summary](two-pointers-summary.md)
-* [3Sum](3sum.md)
-* [Container With Most Water](container-with-most-water.md)
-* [Trapping Rain Water](trapping-rain-water.md)
-* [Minimum Window Substring](two-pointers-with-substring-window/minimum-window-substring.md)
+* [Two Pointers Summary](two-pointers/two-pointers-summary.md)
+* [11. Container With Most Water](two-pointers/container-with-most-water.md)
+* [15. 3Sum](two-pointers/3sum.md)
+* [42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
+* [76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
 
 ## System Design
 
@@ -101,6 +100,13 @@ Under construction...
   * [Post系统的设计 ](postxi-tong-de-she-ji.md)
 * [Twitter Design](twitter-design.md)
 * [Tiny URL Design](tiny-url-design.md)
+* [test1](system-design/test1.md)
+* [test2](system-design/test2.md)
+* [test3](test3.md)
+
+
+
+
 
 
 
