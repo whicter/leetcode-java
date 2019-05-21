@@ -85,6 +85,10 @@
 ## Two Pointers
 
 * [Two Pointers Summary](two-pointers/two-pointers-summary.md)
+* [11. Container With Most Water](two-pointers/container-with-most-water.md)
+* [15. 3Sum](two-pointers/3sum.md)
+* [42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
+* [76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
 
 ## System Design
 
