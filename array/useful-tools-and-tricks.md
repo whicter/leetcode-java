@@ -1,4 +1,4 @@
-, # Quick Select
+# Quick Select
 
 ```java
 public int partition(int[]nums, int leftIndex, int rightIndex) {
