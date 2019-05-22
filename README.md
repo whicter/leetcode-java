@@ -40,10 +40,10 @@ Under construction...
 ## Bit Manipulation
 
 * [Bit Manipulation Summary](bit-manipulation/summary.md)
-* [Single Number](bit-manipulation/single-number.md)
-* [Single Number II](bit-manipulation/single-number-ii.md)
-* [Single Number III](bit-manipulation/single-number-iii.md)
-* [Missing Number](bit-manipulation/missing-number.md)
+* [136. Single Number](bit-manipulation/single-number.md)
+* [137. Single Number II](bit-manipulation/single-number-ii.md)
+* [138. Single Number III](bit-manipulation/single-number-iii.md)
+* [268. Missing Number](bit-manipulation/missing-number.md)
 
 ## Dynamic Programming
 
@@ -91,6 +91,7 @@ Under construction...
 * [15. 3Sum](two-pointers/3sum.md)
 * [42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
 * [76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
+* [159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
 
 ## System Design
 
@@ -100,6 +101,8 @@ Under construction...
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)
 * [Twitter Design](system-design/twitter-design.md)
 * [Tiny URL Design](system-design/twitter-design.md)
+
+
 
 
 
