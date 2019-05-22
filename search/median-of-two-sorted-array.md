@@ -28,7 +28,7 @@ For normal cases(all other cases), we need to move the pointer at the pace of ha
 ``` java
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
-        int total = nums1.length+nums2.length;
+        int total = nums1.length + nums2.length;
         if (total % 2 == 0) {
             return (findKth(total / 2 + 1, nums1, nums2, 0, 0) + findKth(total / 2, nums1, nums2, 0, 0)) / 2.0;
         } else {
