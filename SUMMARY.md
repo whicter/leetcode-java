@@ -38,10 +38,10 @@
 ## Bit Manipulation
 
 * [Bit Manipulation Summary](bit-manipulation/summary.md)
-* [Single Number](bit-manipulation/single-number.md)
-* [Single Number II](bit-manipulation/single-number-ii.md)
-* [Single Number III](bit-manipulation/single-number-iii.md)
-* [Missing Number](bit-manipulation/missing-number.md)
+* [136. Single Number](bit-manipulation/single-number.md)
+* [137. Single Number II](bit-manipulation/single-number-ii.md)
+* [138. Single Number III](bit-manipulation/single-number-iii.md)
+* [268. Missing Number](bit-manipulation/missing-number.md)
 
 ## Dynamic Programming
 
