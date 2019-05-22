@@ -31,6 +31,7 @@ class Solution {
             return "";  
         }
         
+        // Initialize the map with characters in string T
         Map<Character, Integer> map = new HashMap<>();  
         for (int i = 0; i < t.length(); i++)  {  
             if (map.containsKey(t.charAt(i))) {  
