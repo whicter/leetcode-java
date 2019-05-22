@@ -46,9 +46,9 @@
 ## Dynamic Programming
 
 * [DP-Summary](divide-and-conquer/summary.md)
-* [Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
-* [Edit Distance](dynamic-programming/edit-distance.md)
-* [Word Break](dynamic-programming/word-break.md)
+* [10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
+* [72. Edit Distance](dynamic-programming/edit-distance.md)
+* [139. Word Break](dynamic-programming/word-break.md)
 
 ## Hash
 
@@ -80,7 +80,7 @@
 
 ## String
 
-* [Text Justification](string/text-justification.md)
+* [68. Text Justification](string/text-justification.md)
 
 ## Two Pointers
 
