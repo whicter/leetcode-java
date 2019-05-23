@@ -6,7 +6,7 @@
 For example,*s* = "anagram", *t* = "nagaram", return true.*s* = "rat", *t* = "car", return false.
 
 >**Note:** You may assume the string contains only lowercase alphabets.
-**Follow up:** What if the inputs contain unicode characters? How would you adapt your solution to such case? 
+>**Follow up:** What if the inputs contain unicode characters? How would you adapt your solution to such case? 
 
 [原题链接](https://leetcode.com/problems/valid-anagram/)
 
