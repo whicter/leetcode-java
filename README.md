@@ -4,7 +4,7 @@ This E-book also includes some system design questions and solutions from other 
 
 Under construction...
 
-#Content
+# Content
 
 ## Array
 
@@ -51,6 +51,7 @@ Under construction...
 * [10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
 * [72. Edit Distance](dynamic-programming/edit-distance.md)
 * [139. Word Break](dynamic-programming/word-break.md)
+* [265. Paint House II](divide-and-conquer/paint-house-ii.md)
 
 ## Hash
 
@@ -101,6 +102,8 @@ Under construction...
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)
 * [Twitter Design](system-design/twitter-design.md)
 * [Tiny URL Design](system-design/twitter-design.md)
+
+
 
 
 
