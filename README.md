@@ -6,6 +6,12 @@ Under construction...
 
 # Content
 
+# Summary
+
+## Intro
+
+* [Content](README.md)
+
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
@@ -25,6 +31,7 @@ Under construction...
   * [200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
+  * [22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
 
 ## Binary Tree
 

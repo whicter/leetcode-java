@@ -1,3 +1,9 @@
+# Summary
+
+## Intro
+
+* [Content](README.md)
+
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
@@ -17,6 +23,7 @@
   * [200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
+  * [22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
 
 ## Binary Tree
 
@@ -32,17 +39,18 @@
 ## Bit Manipulation
 
 * [Bit Manipulation Summary](bit-manipulation/summary.md)
-* [Single Number](bit-manipulation/single-number.md)
-* [Single Number II](bit-manipulation/single-number-ii.md)
-* [Single Number III](bit-manipulation/single-number-iii.md)
-* [Missing Number](bit-manipulation/missing-number.md)
+* [136. Single Number](bit-manipulation/single-number.md)
+* [137. Single Number II](bit-manipulation/single-number-ii.md)
+* [138. Single Number III](bit-manipulation/single-number-iii.md)
+* [268. Missing Number](bit-manipulation/missing-number.md)
 
 ## Dynamic Programming
 
 * [DP-Summary](divide-and-conquer/summary.md)
-* [Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
-* [Edit Distance](dynamic-programming/edit-distance.md)
-* [Word Break](dynamic-programming/word-break.md)
+* [10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
+* [72. Edit Distance](dynamic-programming/edit-distance.md)
+* [139. Word Break](dynamic-programming/word-break.md)
+* [265. Paint House II](divide-and-conquer/paint-house-ii.md)
 
 ## Hash
 
@@ -74,7 +82,7 @@
 
 ## String
 
-* [Text Justification](string/text-justification.md)
+* [68. Text Justification](string/text-justification.md)
 
 ## Two Pointers
 
@@ -83,6 +91,7 @@
 * [15. 3Sum](two-pointers/3sum.md)
 * [42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
 * [76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
+* [159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
 
 ## System Design
 
