@@ -26,7 +26,7 @@ n = 3: .....
 无法推出线性关系，无可扩展性，属于树形问题，考虑递归 + 回溯
 
 n = 3的树形图如下：
-原始问题的变量-> 站在顶点的时候：L， leftCount, rightCount, 
+
 ![](/assets/GenerateParentheses_n=3.png)
 
 可以发现，节点有如下几种状态
