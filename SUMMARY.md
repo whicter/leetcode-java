@@ -24,6 +24,7 @@
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
+  * [39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
 
 ## Binary Tree
 
