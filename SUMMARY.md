@@ -49,6 +49,7 @@
 * [10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
 * [72. Edit Distance](dynamic-programming/edit-distance.md)
 * [139. Word Break](dynamic-programming/word-break.md)
+* [265. Paint House II](divide-and-conquer/paint-house-ii.md)
 
 ## Hash
 
