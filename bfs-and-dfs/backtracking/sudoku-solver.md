@@ -27,6 +27,8 @@ The given board size is always 9x9.
 - 假设给定row, col, 九宫格的起始坐标为：row / 3 * 3, col / 3 * 3
 - 当对九宫格进行遍历时，九宫格的内部坐标为：i / 3, i % 3
 
+![](/assets/Sudoku Solver_box_index.png)
+
 ### Java代码实现：
 
 ```java
