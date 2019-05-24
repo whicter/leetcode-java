@@ -99,9 +99,9 @@
 ## System Design
 
 * Uber Design
-  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger)
+  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger.md)
 * [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)
 * [Twitter Design](system-design/twitter-design.md)
-* [Tiny URL Design](system-design/twitter-design.md)
+* [Tiny URL Design](system-design/tiny-url-design.md)
 

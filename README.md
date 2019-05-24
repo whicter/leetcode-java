@@ -6,12 +6,6 @@ Under construction...
 
 # Content
 
-# Summary
-
-## Intro
-
-* [Content](README.md)
-
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
