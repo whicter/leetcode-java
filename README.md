@@ -32,6 +32,9 @@ Under construction...
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
+  * [37. Sudoku Solver](bfs-and-dfs/backtracking/sudoku-solver.md)
+  * [39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
+  * [51. N-Queen](bfs-and-dfs/backtracking/n-queen.md)
 
 ## Binary Tree
 
@@ -109,6 +112,8 @@ Under construction...
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)
 * [Twitter Design](system-design/twitter-design.md)
 * [Tiny URL Design](system-design/twitter-design.md)
+
+
 
 
 
