@@ -2,6 +2,7 @@
 
 ## Array
 
+* [Introduction](README.md)
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
@@ -23,6 +24,7 @@
   * [37. Sudoku Solver](bfs-and-dfs/backtracking/sudoku-solver.md)
   * [39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
   * [51. N-Queen](bfs-and-dfs/backtracking/n-queen.md)
+  * [Valid Sudoku](bfs-and-dfs/backtracking/valid-sudoku.md)
 
 ## Binary Tree
 
