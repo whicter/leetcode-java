@@ -21,10 +21,10 @@
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
+  * [36. Valid Sudoku](bfs-and-dfs/backtracking/valid-sudoku.md)
   * [37. Sudoku Solver](bfs-and-dfs/backtracking/sudoku-solver.md)
   * [39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
   * [51. N-Queen](bfs-and-dfs/backtracking/n-queen.md)
-  * [Valid Sudoku](bfs-and-dfs/backtracking/valid-sudoku.md)
 
 ## Binary Tree
 

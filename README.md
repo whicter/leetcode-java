@@ -8,6 +8,7 @@ To be continued...
 
 ## Array
 
+* [Introduction](README.md)
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
@@ -26,6 +27,7 @@ To be continued...
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
+  * [36. Valid Sudoku](bfs-and-dfs/backtracking/valid-sudoku.md)
   * [37. Sudoku Solver](bfs-and-dfs/backtracking/sudoku-solver.md)
   * [39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
   * [51. N-Queen](bfs-and-dfs/backtracking/n-queen.md)
@@ -101,11 +103,13 @@ To be continued...
 ## System Design
 
 * Uber Design
-  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger)
+  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger.md)
 * [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)
 * [Twitter Design](system-design/twitter-design.md)
-* [Tiny URL Design](system-design/twitter-design.md)
+* [Tiny URL Design](system-design/tiny-url-design.md)
+
+
 
 
 
