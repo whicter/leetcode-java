@@ -58,8 +58,7 @@ class Solution {
                     rows[row].add(num);
                     columns[col].add(num);
                     boxes[box_index].add(num);
-                }
-                
+                }   
             }
         }
         return true;
