@@ -62,11 +62,11 @@ class Solution {
         inorderTraversal(root, res);
         return res;
     }
-    public void inorderTraversal(TreeNode root, List<Integer> res){
-        if (root != null) {
-            inorderTraversal(root.left, res);
+    public void inorderTraversal(TreeNode curRoot, List<Integer> res){
+        if (curRoot != null) {
+            inorderTraversal(curRoot.left, res);
             res.add(root.val);
-            inorderTraversal(root.right, res);
+            inorderTraversal(curRoot.right, res);
         }
     }
 }
