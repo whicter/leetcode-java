@@ -4,9 +4,10 @@
 
 * [Content](README.md)
 
+
 ## Array
 
-* [Introduction](README.md)
+
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
@@ -106,6 +107,8 @@
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)
 * [Twitter Design](system-design/twitter-design.md)
 * [Tiny URL Design](system-design/tiny-url-design.md)
+
+
 
 
 
