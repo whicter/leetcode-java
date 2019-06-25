@@ -1,9 +1,3 @@
-# Summary
-
-## Preface
-
-* [Content](CONTENT.md)
-
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
