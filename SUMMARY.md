@@ -1,5 +1,8 @@
+# Summary
+
 ## Array
 
+* [Introduction](README.md)
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
@@ -12,8 +15,8 @@
 
 * [BFS](bfs-and-dfs/bfs-summary.md)
   * [127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
+  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/bfs/maximum-depth-of-binary-tree.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
-  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/dfs/maximum-depth-of-binary-tree.md)
   * [200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
@@ -26,6 +29,8 @@
 ## Binary Tree
 
 * [Element finding](binary-tree/find-an-element-in-the-tree/find-an-element-in-the-tree.md)
+  * Path Sum
+  * [124. Binary Tree Maximum Path Sum](binary-tree/find-an-element-in-the-tree/binary-tree-maximum-path-sum.md)
   * [236. Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/lowest-common-ancestor-of-a-binary-tree.md)
 * [Tree Traversal](binary-tree/tree-traversal-by-level.md)
   * [94. Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
