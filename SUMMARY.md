@@ -15,7 +15,6 @@
 
 * [BFS](bfs-and-dfs/bfs-summary.md)
   * [127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
-  * [104. Maximum Depth of Binary Tree](bfs-and-dfs/bfs/maximum-depth-of-binary-tree.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
   * [200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
@@ -28,10 +27,11 @@
 
 ## Binary Tree
 
-* [Element finding](binary-tree/find-an-element-in-the-tree/find-an-element-in-the-tree.md)
-  * Path Sum
-  * [124. Binary Tree Maximum Path Sum](binary-tree/find-an-element-in-the-tree/binary-tree-maximum-path-sum.md)
-  * [236. Lowest Common Ancestor of a Binary Tree](binary-tree/find-an-element-in-the-tree/lowest-common-ancestor-of-a-binary-tree.md)
+* [Binary Tree BFS and DFS ](binary-tree/tree-bfs-and-dfs/bfs-and-dfs-in-tree.md)
+  * [Path Sum](binary-tree/tree-bfs-and-dfs/path-sum.md)
+  * [104. Maximum Depth of Binary Tree](binary-tree/tree-bfs-and-dfs/maximum-depth-of-binary-tree.md)
+  * [124. Binary Tree Maximum Path Sum](binary-tree/tree-bfs-and-dfs/binary-tree-maximum-path-sum.md)
+  * [236. Lowest Common Ancestor of a Binary Tree](binary-tree/tree-bfs-and-dfs/lowest-common-ancestor-of-a-binary-tree.md)
 * [Tree Traversal](binary-tree/tree-traversal-by-level.md)
   * [94. Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
   * [100. Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)

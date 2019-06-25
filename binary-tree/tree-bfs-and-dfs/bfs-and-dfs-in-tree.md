@@ -1,5 +1,3 @@
-# Element finding
-
 ## Summary
 
 
