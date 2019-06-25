@@ -1,8 +1,11 @@
 # Summary
 
+## Intro
+
+* [Preface](README.md)
+
 ## Array
 
-* [Introduction](README.md)
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
 * [26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
 * [56. Merge Intervals](array/merge-intervals.md)
