@@ -70,6 +70,8 @@
   * [\[LeetCode\] 19. Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
 * [Node swap](linked-list/node-swap.md)
   * [\[LeetCode\] 25. Reverse Nodes in K-Group](linked-list/node-swap/reverse-nodes-in-k-group.md)
+  * [\[LeetCode\] 92. Reverse Linked List II](linked-list/node-swap/reverse-linked-list-ii.md)
+  * [\[LeetCode\] 206. Reverse Linked List](linked-list/node-swap/reverse-linked-list.md)
 * [\[LeetCode\] 82. Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
 
 ## Search & Sort
