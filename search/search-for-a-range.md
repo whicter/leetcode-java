@@ -1,4 +1,4 @@
-# 34. Search for a Range
+# 34. Find First and Last Position of Element in Sorted Array
 ### 题目描述
 
 > Given an array of integers sorted in ascending order, find the starting and ending position of a given target value.
@@ -11,24 +11,24 @@
 <br>return <span style="background-color:#ffe6e6"><font color=#cc0000 >
 [3, 4]</font></span>.
 
-[原题链接](https://leetcode.com/problems/search-for-a-range/description/)
+[原题链接](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 
 ### 解题思路
 Binary Search的变体，第一次找到最左边，第二次找最右边。关键部分代码如下：
 找最左边的时候：
 ``` java
-            if (nums[mid] == target) {
-                idx = mid;
-                end = mid - 1;
-            }
+if (nums[mid] == target) {
+    idx = mid;
+    end = mid - 1;
+}
 ```
 
 找最右边的时候：
 ``` java
-            if (nums[mid] == target) {
-                idx = mid;
-                start = mid - 1;
-            }
+if (nums[mid] == target) {
+    idx = mid;
+    start = mid - 1;
+}
 ```
 
 
