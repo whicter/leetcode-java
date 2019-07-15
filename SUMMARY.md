@@ -86,7 +86,9 @@
   * [\[LeetCode\] 4. Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
   * [\[LeetCode\] 33. Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
   * [\[LeetCode\] 34. Search for a Range](search/search-for-a-range.md)
+  * [\[Leetcode\] 35. Search Insert Position](search/search-insert-position.md)
   * [\[LeetCode\] 278. First Bad Version](search/first-bad-version.md)
+  * [\[Leetcode\] 658. Find K Closest Elements](search/find-k-closest-elements.md)
   * [\[Leetcode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
 * [Topological Sort](search/topological-search.md)
 
