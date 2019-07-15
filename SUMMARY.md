@@ -69,6 +69,7 @@
 ## Heap
 
 * [\[LeetCode\] 21. Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
+* [\[Leetcode\] 973. K Closest Points to Origin](divide-and-conquer/k-closest-points-to-origin.md)
 
 ## Linked List
 
