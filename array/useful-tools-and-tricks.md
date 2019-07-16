@@ -1,4 +1,6 @@
 ## Quick Select
+## Quick Select
+
 
 ```java
 public int partition(int[]nums, int leftIndex, int rightIndex) {
@@ -11,7 +13,7 @@ public int partition(int[]nums, int leftIndex, int rightIndex) {
     }
     swap(nums, partition, rightIndex);
 
-    System.out.println(Arrays.toString(nums));
+    //System.out.println(Arrays.toString(nums));
     return partition;
 }
 ```
