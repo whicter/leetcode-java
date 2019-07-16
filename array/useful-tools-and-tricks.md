@@ -1,6 +1,6 @@
-# Quick Select
-## Quick Select
+# Useful Tools and Tricks
 
+## Quick Select
 
 ```java
 public int partition(int[]nums, int leftIndex, int rightIndex) {
