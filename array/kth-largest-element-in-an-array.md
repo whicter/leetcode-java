@@ -23,6 +23,7 @@ You may assume k is always valid, 1 ≤ k ≤ array's length.
 ### 解题思路
 
 Application of quick selection
+也可以用Heap解决
 
 
 #### Java代码实现
