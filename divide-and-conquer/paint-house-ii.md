@@ -24,17 +24,17 @@ Could you solve it in O(nk) runtime?
 
 线性问题。对于原子操作f[i]:
 - 房子i的最小cost为j，而0 -> i - 1的最小cost对应的 i - 1的cost坐标**不为j**
-<br> 则 0 -> i - 1的最小cost为[i][j] + minCost(0 -> i - 1)
+则 0 -> i - 1的最小cost为[i][j] + minCost(0 -> i - 1)
 
 - 房子i的最小cost为j，而0 -> i - 1的最小cost对应的 i - 1的cost坐标**也是j**
-<br> 则 0 -> i - 1的最小cost为[i][j] + secMinCost(0 -> i - 1)
+则 0 -> i - 1的最小cost为 Min**{**minCostAt_i + secMinCost(0 -> i - 1), secMinCostAt_i + minCost(0 -> i - 1)**}**
 
 根据以上的推导，就需要维护三个变量：
 1. 0 -> i 的最小cost
 2. 0 -> i 的第二小cost
 3. 0 -> i 的最小cost对应的颜色坐标 (j)
 
-在遍历房子i的每一个cost的时候，可以不断更新curMin, curSecMin 以及 minIdx
+在实际操作中，需要对于房子i，遍历每一个成本j，这样可以不断更新curMin, curSecMin 以及 minIdx
 
 ### Java代码实现：
 
@@ -58,7 +58,7 @@ class Solution {
             for (int j = 0; j < costs[0].length; j++) {
                 int costAt_i_j = costs[i][j] + (prevMinIdx == j ? prevSecCost : prevMinCost);
                 
-                if(costAt_i_j < currMin){
+                if (costAt_i_j < currMin){
                     currSecMin = currMin;
                     currMin = costAt_i_j;
                     currIdx = j;
