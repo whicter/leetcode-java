@@ -17,15 +17,14 @@
 For example, a topological sorting of the following graph is “5 4 2 3 1 0”. There can be more than one topological sorting for a graph. For example, another topological sorting of the following graph is “4 5 2 3 1 0”. The first vertex in topological sorting is always a vertex with in-degree as 0 (a vertex with no in-coming edges).
 
 ## Applications:
-Topological Sorting is mainly used for scheduling jobs from the given dependencies among jobs. 
+Topological Sorting is mainly used for **scheduling jobs** from the given dependencies among jobs. 
 <br>In computer science, applications of this type arise in instruction scheduling, ordering of formula cell evaluation when recomputing formula values in spreadsheets, logic synthesis, determining the order of compilation tasks to perform in makefiles, data serialization, and resolving symbol dependencies in linkers
 
 ## Implementation
-对于拓扑排序来说， 我们的中心思想是要我们可以找到一个顺序，每一次我们可以进行的工序是现在没有先序依赖的工序，按照这个顺序可以流畅的完成我们的任务。如果从图论的角度来说，实际上是从一个点遍历整个图，并且遍历图的时候，下次可以遍历的点是入度为0的点，而我们遍历的顺序就是我们所要求的拓扑排序的顺序。
-
+对于拓扑排序来说， 我们的中心思想是要我们可以找到一个**顺序**，每一次我们可以进行的工序是现在**没有先序依赖的工序**，按照这个顺序可以流畅的完成我们的任务。如果从图论的角度来说，实际上是**从一个点遍历整个图**，并且遍历图的时候，下次可以遍历的点是入度为0的点，而我们遍历的顺序就是我们所要求的拓扑排序的顺序。
 
 那么对于一个DAG怎么求得他的拓扑序呢？
-我们可以用宽度优先的方法，因为宽度优先的方法非常适合通过一点去遍历整个图。对于求拓扑排序的问题，我们宽度优先搜索有一个条件：每一次只能遍历当前入度为0的点
+我们可以用**宽度优先**的方法，因为宽度优先的方法非常适合通过一点去遍历整个图。对于求拓扑排序的问题，我们宽度优先搜索有一个条件：**每一次只能遍历当前入度为0的点**
 
 每次遍历一个点之后，就更新这个点相邻的点的入度信息，因为遍历了这个点，相当于相邻的点的依赖前序工序减少了1个，也就是相邻点的入度减少了1，如果相邻点中更新后有入度为0的点，那么我们就把相邻点放入到队列当中以便下一次进行访问. 具体操作如下：
 - 从 DAG 图中选择一个入度为0 的顶点并输出。
