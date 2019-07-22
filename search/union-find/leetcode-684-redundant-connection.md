@@ -60,10 +60,21 @@ class Solution {
     }
     
     private int getRoot(int[] parents, int node) {
+    
+        private int getRoot(int[] parents, int node) {
+        int root = node;
+        while (root != parents[root]) {
+          root = parents[root];  
+        }
+        return root;
+        
+    /* recursion
         if (node != parents[node]) {
           parents[node] = getRoot(parents, parents[node]);  
         }
         return parents[node];
+        
+    */
     }
 
     private boolean find(int[] parents, int node1, int node2) {

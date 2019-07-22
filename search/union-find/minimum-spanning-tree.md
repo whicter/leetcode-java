@@ -55,7 +55,7 @@ Return the connects if can connect all the cities, otherwise return empty list.
  * }
  */
 
- public class Solution {
+public class Solution {
     /**
      * @param connections given a list of connections include two cities and cost
      * @return a list of connections from results
@@ -116,7 +116,8 @@ Return the connects if can connect all the cities, otherwise return empty list.
     
     private int find(int[] parents, int idx) {
         while (parents[idx] != idx) {
-            parents[idx] = parents[parents[idx]];
+            // parents[idx] = parents[parents[idx]];
+            // not necessary
             idx = parents[idx];
         }
         
