@@ -1,8 +1,6 @@
 # Summary
 
 ## Preface
-
-* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -95,6 +93,7 @@
   * [\[Leetcode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
 * [Union Find](search/union-find.md)
   * [\[Leetcode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
+  * [\[Lintcode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
 * [Topological Sort](search/topological-search.md)
 
 ## String
