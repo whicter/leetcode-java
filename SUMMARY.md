@@ -1,6 +1,8 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -91,6 +93,8 @@
   * [\[LeetCode\] 278. First Bad Version](search/first-bad-version.md)
   * [\[Leetcode\] 658. Find K Closest Elements](search/find-k-closest-elements.md)
   * [\[Leetcode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
+* [Union Find](search/union-find.md)
+  * \[Leetcode\] 684. Redundant Connection
 * [Topological Sort](search/topological-search.md)
 
 ## String
