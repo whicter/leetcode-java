@@ -13,6 +13,7 @@
 
 * [BFS](bfs-and-dfs/bfs-summary.md)
   * [\[LeetCode\] 127. Word Ladder](bfs-and-dfs/bfs/word-ladder.md)
+  * [\[LeetCode\] 505. The Maze II](bfs-and-dfs/bfs/the-maze-ii.md)
 * [DFS](bfs-and-dfs/dfs-summary.md)
   * [\[LeetCode\] 200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [\[LeetCode\] 301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)

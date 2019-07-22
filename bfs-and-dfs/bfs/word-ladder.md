@@ -5,7 +5,7 @@
 >- Only one letter can be changed at a time.
 >- Each transformed word must exist in the word list. Note that beginWord is not a transformed word.
 
-##### Example
+### Example
 >Given:
 beginWord = <span style="background-color:#ffe6e6"><font color=#cc0000 >"hit"</font></span>
 <br>endWord = <span style="background-color:#ffe6e6"><font color=#cc0000 >"cog"</font></span>
@@ -13,12 +13,12 @@ beginWord = <span style="background-color:#ffe6e6"><font color=#cc0000 >"hit"</f
 <br>As one shortest transformation is <span style="background-color:#ffe6e6"><font color=#cc0000 >"hit" -> "hot" -> "dot" -> "dog" -> "cog"</font></span>,
 return its length <span style="background-color:#ffe6e6"><font color=#cc0000 >5</font></span>.
 
-##### Note:
->- Return 0 if there is no such transformation sequence.
->- All words have the same length.
->- All words contain only lowercase alphabetic characters.
->- You may assume no duplicates in the word list.
->- You may assume beginWord and endWord are non-empty and are not the same.
+**Note:**
+- Return 0 if there is no such transformation sequence.
+- All words have the same length.
+- All words contain only lowercase alphabetic characters.
+- You may assume no duplicates in the word list.
+- You may assume beginWord and endWord are non-empty and are not the same.
 
 [原题链接](https://leetcode.com/problems/word-ladder/description/)
 
