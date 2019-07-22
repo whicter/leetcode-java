@@ -25,9 +25,9 @@
 ## Binary Tree
 
 * [Binary Tree BFS and DFS ](binary-tree/tree-bfs-and-dfs/bfs-and-dfs-in-tree.md)
+  * [\[LeetCode\] 104. Maximum Depth of Binary Tree](binary-tree/tree-bfs-and-dfs/maximum-depth-of-binary-tree.md)
   * [\[LeetCode\] 112. Path Sum](binary-tree/tree-bfs-and-dfs/path-sum.md)
   * [\[LeetCode\] 113. Path Sum II](binary-tree/tree-bfs-and-dfs/path-sum-ii.md)
-  * [\[LeetCode\] 104. Maximum Depth of Binary Tree](binary-tree/tree-bfs-and-dfs/maximum-depth-of-binary-tree.md)
   * [\[LeetCode\] 124. Binary Tree Maximum Path Sum](binary-tree/tree-bfs-and-dfs/binary-tree-maximum-path-sum.md)
   * [\[LeetCode\] 236. Lowest Common Ancestor of a Binary Tree](binary-tree/tree-bfs-and-dfs/lowest-common-ancestor-of-a-binary-tree.md)
 * [Tree Traversal](binary-tree/tree-traversal-by-level.md)
@@ -86,6 +86,8 @@
   * [\[LeetCode\] 278. First Bad Version](search/first-bad-version.md)
   * [\[Leetcode\] 658. Find K Closest Elements](search/find-k-closest-elements.md)
   * [\[Leetcode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
+* [Union Find](search/union-find.md)
+  * \[Leetcode\] 684. Redundant Connection
 * [Topological Sort](search/topological-search.md)
 
 ## String
