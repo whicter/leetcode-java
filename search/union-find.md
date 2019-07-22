@@ -85,3 +85,6 @@ class UnionFind2_QuickUnion {
 }
 ```
 
+## Refrence
+http://www.noteanddata.com/classic-algorithm-union-find-1.html
+
