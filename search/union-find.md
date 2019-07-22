@@ -3,7 +3,7 @@
 # Related Definition
 
 ## Disjoint Set
-A disjoint-set data structure is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets. 
+A disjoint-set data structure is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets.
 
 ## Union Find Algorithm
 A union-find algorithm is an algorithm that performs two useful operations on such a data structure:
@@ -20,8 +20,68 @@ Find: Determine which subset a particular element is in. This can be used for de
 2. 同名变量的识别
 3. 照片上的点？ (假设颜色完全一样称为相连, 比如photoshop里面就用到类似的技术)
 
-## 基本思路
+
+## 思路一
+每次union的时候，找到所有j对应的parent，都把他改成i对应的parent， 这样，每次union完以后，属于同一个connected component的节点的parent都会被更新到同一个值
+
+实现方法如下：
+``` java
+public class UnionFind1_QuickFind {
+
+    private int[] parents;
+    public UnionFind1_QuickFind(int n) {
+        parents = new int[n];
+        for(int i = 0; i < n; ++i) {
+            parents[i] = i;
+        }
+    }
+    void union(int i, int j) {
+        int oldParent = parents[j];
+        for(int k = 0; k < parents.length; ++k) {
+            if(parents[k] == oldParent) {
+                parents[k] = parents[i];
+            }
+        }
+    }
+    boolean find(int i, int j) {
+        return parents[i] == parents[j];
+    }
+
+}
+```
+
+## 思路二
 1. 建立一个root表，保存最开始union的那个节点， 每次union的时候把root更新一下，
 2. 通过判断两个节点的root来判断是否相通
+3. find的时候就要遍历所有connected component里面的节点才可能判断是否相连。 相当于只是把思路一union的所有复杂度转移到find
 
-Leetcode 684为基本模板
+实现方法如下：
+``` java
+class UnionFind2_QuickUnion {
+    private int[] roots;
+    public UnionFind2_QuickUnion(int n) {
+        roots = new int[n];
+        for(int i = 0; i < n; ++i) {
+            roots[i] = i;
+        }
+    }
+
+    public int findRoot(int i) {
+        while(roots[i] != i) {
+            i = roots[i];
+        }
+        return i;
+    }
+
+    public boolean find(int i, int j) {
+        return findRoot(i) == findRoot(j);
+    }
+
+    public void union(int i, int j) {
+        int rootOfi = findRoot(i);
+        int rootOfj = findRoot(j);
+        roots[rootOfj] = rootOfi;
+    }
+}
+```
+
