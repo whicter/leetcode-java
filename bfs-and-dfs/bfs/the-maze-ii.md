@@ -58,6 +58,12 @@
 
 对于队列里每一个坐标，从当前位置开始，每次尝试4个可能的方向，然后遇到1就停止， 把前面的位置加入到queue里面，并得到新坐标并更新到达该坐标的最小步数
 
+这里有一个细节， 传统的bfs，通常会保存一个visited的状态， 然后如果已经访问过的话，会把visited设置成true，然后不加入queue里面，
+这对于每次遍历步长一样的操作是可以的， 因为先bfs到的地方，一定是step最小的地方，
+
+但是这个题目不能这样操作，因为每次是直接走到最底下，导致步长不一样， 然后在queue里面先操作到的地方，不一定是step最小的。
+所以这个直接填visited是不对的。(参考：http://www.noteanddata.com/leetcode-505-The-Maze-II-java-solution-note.html）
+
 ### Java代码实现
 
 ``` java
