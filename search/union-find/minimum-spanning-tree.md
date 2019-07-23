@@ -118,7 +118,6 @@ public class Solution {
             // not necessary
             idx = parents[idx];
         }
-        
         return idx;
     }
 }
