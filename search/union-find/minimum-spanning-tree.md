@@ -34,7 +34,7 @@ Return the connects if can connect all the cities, otherwise return empty list.
 
 ### 解题思路
 1. 最小生成树， 就是在图上取一些边，使得整个树不存在环
-2. 这里采用Kruskal算法，就是先排序， 每次都从成本最小的开始选， 如果不会够成环，就加到结果里面去，判断环的地方，用union find算法
+2. 这里采用Kruskal算法，就是先排序，每次都从成本最小的开始选，如果不会够成环，就加到结果里面去，判断环的地方，用union find算法
 3. 直到遍历到够了（也就是边的个数=节点个数-1）。
 
 
@@ -60,8 +60,6 @@ public class Solution {
      * @param connections given a list of connections include two cities and cost
      * @return a list of connections from results
      */
-    
-
     
     public List<Connection> lowestCost(List<Connection> connections) {
         HashMap<String, Integer> cities = new HashMap<String, Integer>();
