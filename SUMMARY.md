@@ -1,8 +1,6 @@
 # Summary
 
 ## Preface
-
-* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -29,7 +27,7 @@
   * [\[LeetCode\] 37. Sudoku Solver](bfs-and-dfs/backtracking/sudoku-solver.md)
   * [\[LeetCode\] 39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
   * [\[LeetCode\] 51. N-Queen](bfs-and-dfs/backtracking/n-queen.md)
-  * Word Search
+  * [\[LeetCode\] 79. Word Search](bfs-and-dfs/backtracking/word-search.md)
 
 ## Binary Tree
 
