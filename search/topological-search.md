@@ -4,7 +4,7 @@
 
 >Topological sorting for **Directed Acyclic Graph (DAG)** is <u>a linear ordering of vertices such that for every directed edge uv, vertex u comes before v in the ordering</u>
 <br>给定一个有向图，图节点的拓扑排序被定义为：
-<br>对于每条有向边A--> B，则A必须排在B之前　　
+<br>对于每条有向边A --> B，则A必须排在B之前　　
 拓扑排序的第一个节点可以是任何在图中没有其他节点指向它的节点　　
 找到给定图的任一拓扑排序
 
