@@ -36,7 +36,7 @@ class Solution {
         boolean result = false;
         for (int i = 0; i < m; i++){
             for(int j = 0; j < n; j++){
-               if (dfs(board, i, j, word, 0)){
+               if (findPathDfs(board, i, j, word, 0)){
                    result = true;
                }
             }
@@ -46,7 +46,7 @@ class Solution {
 
     }
     
-    public boolean dfs(char[][] board, int row, int col, String word, int wordIdx) {
+    public boolean findPathDfs(char[][] board, int row, int col, String word, int wordIdx) {
         int m = board.length;
         int n = board[0].length;
         
@@ -60,10 +60,10 @@ class Solution {
             if (wordIdx == word.length() - 1) {
                 return true;
             } else if (
-                dfs(board, row + 1, col, word, wordIdx + 1) 
-                 || dfs(board, row, col + 1, word, wordIdx + 1)
-                 || dfs(board, row - 1, col, word, wordIdx + 1)
-                 || dfs(board, row, col - 1, word, wordIdx + 1)
+                findPathDfs(board, row + 1, col, word, wordIdx + 1) 
+                 || findPathDfs(board, row, col + 1, word, wordIdx + 1)
+                 || findPathDfs(board, row - 1, col, word, wordIdx + 1)
+                 || findPathDfs(board, row, col - 1, word, wordIdx + 1)
                 ) {
                 return true;
             
