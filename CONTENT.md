@@ -16,6 +16,7 @@
 * [DFS](bfs-and-dfs/dfs-summary.md)
   * [\[LeetCode\] 200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [\[LeetCode\] 301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
+  * [\[LeetCode\] 547. Friend Circles](bfs-and-dfs/dfs/friend-circles.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [\[LeetCode\] 22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
   * [\[LeetCode\] 36. Valid Sudoku](bfs-and-dfs/backtracking/valid-sudoku.md)
@@ -90,8 +91,9 @@
   * [\[LeetCode\] 658. Find K Closest Elements](search/find-k-closest-elements.md)
   * [\[LeetCode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
 * [Union Find](search/union-find.md)
-  * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
+  * [\[LeetCode\] 547. Friend Circle](search/union-find/friend-circle.md)
   * [\[LintCode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
+  * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
 * [Topological Sort](search/topological-search.md)
 
 ## String

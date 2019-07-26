@@ -1,0 +1,1 @@
+DFS解法请见Union Find section里的 [547.Friend Circles](/search/union-find/friend-circle.md)

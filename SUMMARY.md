@@ -1,8 +1,6 @@
 # Summary
 
 ## Preface
-
-* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -23,6 +21,7 @@
 * [DFS](bfs-and-dfs/dfs-summary.md)
   * [\[LeetCode\] 200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [\[LeetCode\] 301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
+  * [\[LeetCode\] 547. Friend Circles](bfs-and-dfs/dfs/friend-circles.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [\[LeetCode\] 22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
   * [\[LeetCode\] 36. Valid Sudoku](bfs-and-dfs/backtracking/valid-sudoku.md)
