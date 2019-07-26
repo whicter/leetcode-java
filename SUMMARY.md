@@ -2,6 +2,7 @@
 
 ## Preface
 
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -96,8 +97,9 @@
   * [\[LeetCode\] 658. Find K Closest Elements](search/find-k-closest-elements.md)
   * [\[LeetCode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
 * [Union Find](search/union-find.md)
-  * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
+  * [\[LeetCode\] 547. Friend Circle](search/union-find/friend-circle.md)
   * [\[LintCode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
+  * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
 * [Topological Sort](search/topological-search.md)
 
 ## String
