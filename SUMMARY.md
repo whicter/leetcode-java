@@ -48,7 +48,7 @@
   * [\[LeetCode\] 145. Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
   * [\[LeetCode\] 297. Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
 * BST
-  * Delete Node in a BST
+  * [\[LeetCode\] 450. Delete Node in a BST](binary-tree/tree-bfs-and-dfs/delete-node-in-a-bst.md)
 
 ## Bit Manipulation
 
