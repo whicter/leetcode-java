@@ -7,15 +7,19 @@
 >
 > For example, the lowest common ancestor \(LCA\) of nodes 2 and 8 is 6. Another example is LCA of nodes 2 and 4 is 2, since a node can be a descendant of itself according to the LCA definition.
 
-```
-        _______6______
-       /              \
-    ___2__          ___8__
-   /      \        /      \
-   0      _4_       7       9
-         /  \
-         3   5
-```         
+![](/assets/Lowest Common Ancestor of a Binary Tree.png)    
+
+### Example 1:
+
+    Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 1
+    Output: 3
+    Explanation: The LCA of nodes 5 and 1 is 3.
+
+### Example 2:
+
+    Input: root = [3,5,1,6,2,0,8,null,null,7,4], p = 5, q = 4
+    Output: 5
+    Explanation: The LCA of nodes 5 and 4 is 5, since a node can be a descendant of itself according to the LCA definition.     
 
 [原题链接](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/)
 
@@ -61,11 +65,11 @@ class Solution {
             return root;
         }
 
-        TreeNode left = lowestCommonAncestor(root.left, p, q);
-        TreeNode right = lowestCommonAncestor(root.right, p, q);
+        TreeNode candidate_1 = lowestCommonAncestor(root.left, p, q);
+        TreeNode candidata_2 = lowestCommonAncestor(root.right, p, q);
 
-        if (left == null) return right;
-        if (right == null) return left;
+        if (candidate_1 == null) return candidata_2;
+        if (candidata_2 == null) return candidate_1;
 
         return root;
     }
@@ -74,42 +78,53 @@ class Solution {
 
 #### 2.迭代 with two stacks.
 
-相当于暴力解法了，找到两条路径后分别做pop操作
+找到两条路径后分别做pop操作
+需要注意的是，stack是node to root, 即root在stack最上。
+每次pop之后比较是否相同，直到最后一次相同的时候，就是LCA
 
 #### Java代码实现
 
 ```java
-public class Solution {
+class Solution {
     public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        Stack<TreeNode> sp = new Stack<TreeNode>();
-        Stack<TreeNode> sq = new Stack<TreeNode>();
-        findNode(root, p, sp);
-        findNode(root, q, sq);
+        Stack<TreeNode> stackP = new Stack<TreeNode>();
+        Stack<TreeNode> stackQ = new Stack<TreeNode>();
+        
+        findNodeToRootPath(root, p, stackP);
+        findNodeToRootPath(root, q, stackQ);
+        
         TreeNode target = root;
         TreeNode temp;
-        while (!sp.isEmpty() && !sq.isEmpty()){
-            temp = sp.pop();
-            if (temp == sq.pop()) {
+        
+        System.out.println(stackP.peek().val + " " + stackQ.peek().val);
+        
+        while (!stackP.isEmpty() && !stackQ.isEmpty()){
+            temp = stackP.pop();
+            
+            if (temp == stackQ.pop()) {
                 target = temp;
+            } else {
+                break; 
             }
-            else {
-                break;
-            }
+            
         }
         return target;
     }
 
-    public boolean findNode(TreeNode root, TreeNode p, Stack<TreeNode> s) {
+    public boolean findNodeToRootPath(TreeNode root, TreeNode p, Stack<TreeNode> s) {
         if (root == null) {
             return false;
         }
+        
         if (root == p) {
             s.push(root);
             return true;
-        } else if (findNode(root.left, p, s) || findNode(root.right, p,s)) {
+            
+        } else if (findNodeToRootPath(root.left, p, s) || findNodeToRootPath(root.right, p, s)) {
             s.push(root);
             return true;
-        } else{
+            
+        } else {
             return false;
         }
     }
