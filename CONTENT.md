@@ -1,4 +1,5 @@
 
+
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
@@ -17,6 +18,7 @@
 * [DFS](bfs-and-dfs/dfs-summary.md)
   * [\[LeetCode\] 200. Number of Islands](bfs-and-dfs/dfs/number-of-islands.md)
   * [\[LeetCode\] 301. Remove Invalid Parentheses](bfs-and-dfs/dfs/remove-invalid-parentheses.md)
+  * [\[LeetCode\] 332. Reconstruct Itinerary](bfs-and-dfs/dfs/reconstruct-itinerary.md)
   * [\[LeetCode\] 547. Friend Circles](bfs-and-dfs/dfs/friend-circles.md)
 * [Backtracking](bfs-and-dfs/backtracking.md)
   * [\[LeetCode\] 22. Generate Parentheses](bfs-and-dfs/backtracking/generate-parentheses.md)
@@ -43,6 +45,7 @@
   * [\[LeetCode\] 297. Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
 * BST
   * [\[LeetCode\] 450. Delete Node in a BST](binary-tree/tree-bfs-and-dfs/delete-node-in-a-bst.md)
+  * [\[LeetCode\] 701. Insert into a Binary Search Tree](binary-tree/tree-bfs-and-dfs/insert-into-a-binary-search-tree.md)
 
 ## Bit Manipulation
 

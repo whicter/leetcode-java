@@ -90,7 +90,7 @@ class Solution {
 ```
 
 
-### 迭代解法：
+#### 迭代解法：
 1. 根据BST性质定位到需要删除的节点
 2. 分类情况同上，难点还是在于如果被删除节点左右子树都存在的时候，新的替代者依然在被删除节点的右子树中。这时有可以分两类情况：
     - nodeToDelete.right没有左子树，那直接将nodeToDelete.right作为新的替代者，并且将nodeToDelete.left连接到自己身上
