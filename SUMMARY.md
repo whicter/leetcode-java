@@ -1,6 +1,8 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -66,6 +68,7 @@
 * [\[LeetCode\] 139. Word Break](dynamic-programming/word-break.md)
 * [\[LeetCode\] 265. Paint House II](divide-and-conquer/paint-house-ii.md)
 * [\[LeetCode\] 1048. Longest String Chain](divide-and-conquer/longest-string-chain.md)
+* [\[LintCode\] 79. Longest Common Substring](divide-and-conquer/longest-common-substring.md)
 
 ## Hash
 
