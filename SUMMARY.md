@@ -64,6 +64,7 @@
 
 * [DP-Summary](divide-and-conquer/summary.md)
 * [\[LeetCode\] 10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
+* [\[LeetCode\] 53.Maximum Subarray](divide-and-conquer/maximum-subarray.md)
 * [\[LeetCode\] 72. Edit Distance](dynamic-programming/edit-distance.md)
 * [\[LeetCode\] 139. Word Break](dynamic-programming/word-break.md)
 * [\[LeetCode\] 265. Paint House II](divide-and-conquer/paint-house-ii.md)
