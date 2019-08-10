@@ -41,7 +41,7 @@ DFS(u):
     path.pushLeft(u)
 ```   
 
-### java 代码实现
+### Java 代码实现
 
 ```java
 class Solution {
