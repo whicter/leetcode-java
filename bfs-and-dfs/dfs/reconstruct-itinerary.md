@@ -28,7 +28,20 @@
 ### 解题思路
 将所有的机票用数组保存起来，最后我们就是要找出一条路径将机票用完，并且如果有多条路径，就找字典序最小的。用一个hashmap<String,PriorityQueue<String>>保存每个点及其邻节点，然后使用深度遍历，第一次得到的结果便是答案（因为每次都是用的最小路径）。 另外一种方法是每次找到终点，然后删除该点继续查找下一个终点，最后得到的结果反转即可。
 
-其实这是用来计算Euler circuit的Hierholzer’s Algorithm
+其实这是用来计算Euler circuit的Hierholzer’s Algorithm, 伪代码见下：
+```java
+
+path = []
+
+DFS(u):
+    While (u存在未被访问的边e(u,v))
+        mark边e(u,v)为访问
+        DFS(v)
+    End
+    path.pushLeft(u)
+```   
+
+### java 代码实现
 
 ```java
 class Solution {
