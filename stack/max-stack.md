@@ -171,7 +171,7 @@ class MaxStack {
         return max.val;
     }
     
-    static class Node {
+    private class Node {
         private int val;
         private Node pre;
         private Node next;
