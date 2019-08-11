@@ -1,5 +1,3 @@
-
-
 ## Array
 
 * [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
@@ -109,6 +107,7 @@
 ## Stack
 
 * [\[LeetCode\] 155. Min Stack](stack/min-stack.md)
+* [\[LeetCode\] 716. Max Stack](stack/max-stack.md)
 
 ## String
 
