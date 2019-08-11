@@ -1,7 +1,6 @@
 # Summary
 
 ## Preface
-
 * [Content](CONTENT.md)
 
 ## Array
@@ -109,6 +108,10 @@
   * [\[LintCode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
   * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
 * [Topological Sort](search/topological-search.md)
+
+## Stack
+
+* [\[LeetCode\] 155. Min Stack](stack/min-stack.md)
 
 ## String
 
