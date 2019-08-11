@@ -47,7 +47,7 @@
 ```java
 class Solution {
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        Arrays.sort(candidates);
+        // Arrays.sort(candidates); 
         List<List<Integer>> finalResults = new ArrayList<List<Integer>>();
         generateResults(candidates, target, finalResults, 0, new ArrayList<Integer>());
         return finalResults;
