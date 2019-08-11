@@ -1,6 +1,8 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Array
@@ -112,6 +114,7 @@
 ## Stack
 
 * [\[LeetCode\] 155. Min Stack](stack/min-stack.md)
+* [\[LeetCode\] 716. Max Stack](stack/max-stack.md)
 
 ## String
 
