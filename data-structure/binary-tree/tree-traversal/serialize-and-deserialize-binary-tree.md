@@ -24,7 +24,7 @@ as <span style="background-color:#ffe6e6"><font color=#cc0000 >"[1,2,3,null,null
 ### 解题思路
 没什么花头，Queue解决战斗。稍微需要注意的是，在deserialize的时候每次拿出两个节点
 
-###  Java代码实现
+####  Java代码实现
 
 ``` java
 /**
