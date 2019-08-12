@@ -1,6 +1,7 @@
 # Summary
 
 ## Preface
+
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -41,7 +42,6 @@
   * [\[LeetCode\] 560. Subarray Sum Equals K](data-structure/hash-hashmap/subarray-sum-equals-k.md)
   * [\[LeetCode\] 244. Shortest Word Distance II](data-structure/hash/shortest-word-distance-ii.md)
   * [\[LeetCode\] 245. Shortest Word Distance III](data-structure/hash/shortest-word-distance-iii.md)
-* test2
 * [Heap \(PriorityQueue\)](data-structure/heap-priorityqueue.md)
   * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
   * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
