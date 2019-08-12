@@ -13,7 +13,7 @@ return [0, 1].
 ### 解题思路
 因为需要返回原数组的index，所以不能排序
 HashMap来记录当前数值和位置，如果当前数值的counterpart存在于map中可直接返回结果
-###  Java代码实现
+####  Java代码实现
 
 ``` java
 class Solution {

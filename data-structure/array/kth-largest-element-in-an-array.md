@@ -4,10 +4,10 @@
 
 > Find the kth largest element in an unsorted array. Note that it is the kth largest element in the sorted order, not the kth distinct element.
 
+#### Example
+> Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[3, 2, 1, 5, 6, 4]</font></span> and k = 2, return 5.
 
-<br> Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[3,2,1,5,6,4]</font></span> and k = 2, return 5.
-
-#### Note:
+**Note:**
 You may assume k is always valid, 1 ≤ k ≤ array's length.
 
 [原题链接](https://leetcode.com/problems/rotate-array/description/)

@@ -27,7 +27,7 @@
 - 每次push的时候需要对min进行维护：小于当前min的时候更新min，同时把之前的min压入栈
 - 每次pop的时候需要对min进行维护：如果pop的是当前min，需要将2nd min也pop同时更新min的值
 
-### Java代码实现：
+#### Java代码实现：
 
 ```java
 class MinStack {

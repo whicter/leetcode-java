@@ -5,7 +5,7 @@
 <br> For example, with _n = 7 _and _k = 3_, the array 
 <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,2,3,4,5,6,7]</font></span> is rotated to <span style="background-color:#ffe6e6"><font color=#cc0000 >[5,6,7,1,2,3,4]</font></span>.
 
-#### Note:
+**Note:**
 Try to come up as many solutions as you can, there are at least 3 different ways to solve this problem.
 
 [原题链接](https://leetcode.com/problems/rotate-array/description/)

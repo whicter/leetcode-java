@@ -5,10 +5,10 @@
 <br>You may assume that the intervals were initially sorted according to their start times.
 
 #### Example 1
->Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,3], [6,9]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[2,5]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,5], [6,9]</font></span>.  
+>Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 3], [6, 9]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[2, 5]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 5], [6, 9]</font></span>.  
 
 #### Example 2
->Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,2], [3,5], [6,7], [8,10], [12,16]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[4,9]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,2], [3,10], [12,16]</font></span>.  
+>Given <span style="background-color:#ffe6e6"><font color=#cc0000 >[1,2], [3, 5], [6, 7], [8, 10], [12, 16]</font></span>, insert and merge <span style="background-color:#ffe6e6"><font color=#cc0000 >[4, 9]</font></span> in as <span style="background-color:#ffe6e6"><font color=#cc0000 >[1, 2], [3, 10], [12, 16]</font></span>.  
 
 
 [原题链接](https://leetcode.com/problems/insert-interval/description/)

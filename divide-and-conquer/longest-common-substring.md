@@ -36,6 +36,8 @@
 在遍历过程中，维护一个全局的max来找到最大值
 有些follow up会需要打印字符串，那每次max在更新的时候，更新一下endOfS1 或者 endOfS2
 
+#### Java 代码实现
+
 ```java
 public class Solution {
     /**

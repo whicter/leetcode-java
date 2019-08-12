@@ -32,7 +32,7 @@
 ### 解题思路一
 难点在于popmax，需要把当前max stack的peek 从stack里面remove掉，同时更新当前的max，用个temp stack解决，存储当前的Integer到max的值，然后再存储回来；
 
-### Java代码实现：
+#### Java代码实现：
 
 ```java
 class MaxStack {
@@ -102,7 +102,7 @@ class MaxStack {
 TreeMap基于红黑树（Red-Black tree）实现。该映射根据其键的自然顺序进行排序，或者根据创建映射时提供的 Comparator 进行排序，具体取决于使用的构造方法。
 TreeMap的基本操作 containsKey、get、put 和 remove 的时间复杂度是 log(n) 。
 
-### Java 代码实现
+#### Java 代码实现
 ```java
 class MaxStack {
 

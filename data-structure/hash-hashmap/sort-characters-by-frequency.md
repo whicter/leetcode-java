@@ -28,7 +28,7 @@ Note that 'A' and 'a' are treated as two different characters.
 ### 解题思路
 
 非常容易的一道题，trick在于buildArray，找到max count以后建立一个以此为size的array然后把放入对应的字母
-###  Java代码实现
+####  Java代码实现
 
 ``` java
 class Solution {

@@ -20,7 +20,7 @@
 方法1. 二层循环
 方法2. 存在递归关系：$$sum(i, j) = sum(0, j) - sum(0, i)$$。因此我们建立一个HashMap, 结构为：($$sum_i$$, no.ofOccurencesOf$$Sum_i$$)。需要注意的是初始状况，需要`preSum.put(0, 1);
 
-###  Java代码实现
+####  Java代码实现
 
 ``` java
 class Solution {

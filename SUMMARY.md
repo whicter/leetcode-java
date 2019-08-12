@@ -1,17 +1,43 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
-## Array
+## Data Structure
 
-* [Useful Tools and Tricks](array/useful-tools-and-tricks.md)
-* [\[LeetCode\] 26. Remove Duplicates from Sorted Array](array/remove-duplicates-from-sorted-array.md)
-* [\[LeetCode\] 57. Insert Interval](array/insert-interval.md)
-* [\[LeetCode\] 56. Merge Intervals](array/merge-intervals.md)
-* [\[LeetCode\] 80. Remove Duplicates from Sorted Array II](array/remove-duplicates-from-sorted-array-ii.md)
-* [\[LeetCode\] 189. Rotate Array](array/array-rotation.md)
-* [\[LeetCode\] 215. Kth Largest Element in an Array](array/kth-largest-element-in-an-array.md)
+* [Array](data-structure/array.md)
+  * [Useful Tools and Tricks](data-structure/array/useful-tools-and-tricks.md)
+  * [\[LeetCode\] 26. Remove Duplicates from Sorted Array](data-structure/array/remove-duplicates-from-sorted-array.md)
+  * [\[LeetCode\] 56. Merge Intervals](data-structure/array/merge-intervals.md)
+  * [\[LeetCode\] 57. Insert Interval](data-structure/array/insert-interval.md)
+  * [\[LeetCode\] 80. Remove Duplicates from Sorted Array II](data-structure/array/remove-duplicates-from-sorted-array-ii.md)
+  * [\[LeetCode\] 189. Rotate Array](data-structure/array/rotate-array.md)
+  * [\[LeetCode\] 215. Kth Largest Element in an Array](data-structure/array/kth-largest-element-in-an-array.md)
+* [Hash \(HashMap\)](data-structure/hash-hashmap.md)
+  * [Summary](data-structure/hash/summary.md)
+  * [\[LeetCode\] 1. Two Sum](data-structure/hash-hashmap/two-sum.md)
+  * [\[LeetCode\] 242. Valid Anagram](data-structure/hash-hashmap/valid-anagram.md)
+  * [\[LeetCode\] 451. Sort Characters By Frequency](data-structure/hash-hashmap/sort-characters-by-frequency.md)
+  * [\[LeetCode\] 560. Subarray Sum Equals K](data-structure/hash-hashmap/subarray-sum-equals-k.md)
+* [Heap \(PriorityQueue\)](data-structure/heap-priorityqueue.md)
+  * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
+  * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
+* [LinkedList](data-structure/linkedlist.md)
+  * [Fast / Slow Pointers](data-structure/linkedlist/fast-slow-pointers.md)
+    * [\[LeetCode\] 19. Remove Nth Node From End of List](data-structure/linkedlist/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
+  * [Node Swap](data-structure/linkedlist/node-swap.md)
+    * [\[LeetCode\]  25. Reverse Nodes in K-Group](data-structure/linkedlist/reverse-nodes-in-k-group.md)
+    * [\[LeetCode\] 92. Reverse Linked List II](data-structure/linkedlist/reverse-linked-list-ii.md)
+    * [\[LeetCode\]  206. Reverse Linked List](data-structure/linkedlist/reverse-linked-list.md)
+  * [\[LeetCode\] 82. Remove Duplicates from Sorted List II](data-structure/linkedlist/remove-duplicates-from-sorted-list-ii.md)
+* [Stack](data-structure/stack.md)
+  * [\[LeetCode\] 155. Min Stack](data-structure/stack/min-stack.md)
+  * [\[LeetCode\] 716. Max Stack](data-structure/stack/max-stack.md)
+* [String](data-structure/string.md)
+  * [\[LeetCode\] 68. Text Justification](data-structure/string/text-justification.md)
+  * [\[LeetCode\] 937. Reorder Log Files](data-structure/string/reorder-log-files.md)
 
 ## BFS & DFS
 
@@ -69,29 +95,6 @@
 * [\[LeetCode\] 1048. Longest String Chain](divide-and-conquer/longest-string-chain.md)
 * [\[LintCode\] 79. Longest Common Substring](divide-and-conquer/longest-common-substring.md)
 
-## Hash
-
-* [Hash Table Summary](hash/hash-table-summary.md)
-* [\[LeetCode\] 1. Two Sum](hash/two-sum.md)
-* [\[LeetCode\] 242. Valid Anagram](hash/valid-anagram.md)
-* [\[LeetCode\] 451. Sort Characters By Frequency](hash/sort-characters-by-frequency.md)
-* [\[LeetCode\] 560. Subarray Sum Equals K](hash/subarray-sum-equals-k.md)
-
-## Heap
-
-* [\[LeetCode\] 21. Merge K Sorted Lists](divide-and-conquer/merge-k-sorted-lists.md)
-* [\[LeetCode\] 973. K Closest Points to Origin](divide-and-conquer/k-closest-points-to-origin.md)
-
-## Linked List
-
-* [Fast / Slow Pointers](linked-list/fast-slow-pointers.md)
-  * [\[LeetCode\] 19. Remove Nth Node From End of List](linked-list/fast-slow-pointers/remove-nth-node-from-end-of-list.md)
-* [Node swap](linked-list/node-swap.md)
-  * [\[LeetCode\] 25. Reverse Nodes in K-Group](linked-list/node-swap/reverse-nodes-in-k-group.md)
-  * [\[LeetCode\] 92. Reverse Linked List II](linked-list/node-swap/reverse-linked-list-ii.md)
-  * [\[LeetCode\] 206. Reverse Linked List](linked-list/node-swap/reverse-linked-list.md)
-* [\[LeetCode\] 82. Remove Duplicates from Sorted List II](linked-list/remove-duplicates-from-sorted-list-ii.md)
-
 ## Search & Sort
 
 * [Binary Search](search/binary-search.md)
@@ -109,16 +112,6 @@
   * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
 * [Topological Sort](search/topological-search.md)
 
-## Stack
-
-* [\[LeetCode\] 155. Min Stack](stack/min-stack.md)
-* [\[LeetCode\] 716. Max Stack](stack/max-stack.md)
-
-## String
-
-* [\[LeetCode\] 68. Text Justification](string/text-justification.md)
-* [\[LeetCode\] 937. Reorder Log Files](string/reorder-log-files.md)
-
 ## Two Pointers
 
 * [Two Pointers Summary](two-pointers/two-pointers-summary.md)
@@ -130,7 +123,7 @@
 
 ## System Design
 
-* Uber Design
+* [Uber Design](system-design/uber-design.md)
   * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger.md)
 * [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
   * [Post系统的设计 ](system-design/top-k/post-system-design.md)

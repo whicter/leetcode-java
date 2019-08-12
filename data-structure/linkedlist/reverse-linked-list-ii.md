@@ -25,7 +25,7 @@
 pre和new tail都是固定的，new tail即pre.next
 
 
-### Java代码实现
+#### Java代码实现
 
 ``` java
 /**
