@@ -9,12 +9,12 @@
 2. All airports are represented by three capital letters (IATA code).
 3. You may assume all tickets form at least one valid itinerary.
 
-### Example 1:
+#### Example 1:
 
     Input: [["MUC", "LHR"], ["JFK", "MUC"], ["SFO", "SJC"], ["LHR", "SFO"]]
     Output: ["JFK", "MUC", "LHR", "SFO", "SJC"]
 
-### Example 2:
+#### Example 2:
 
     Input: [["JFK","SFO"],["JFK","ATL"],["SFO","ATL"],["ATL","JFK"],["ATL","SFO"]]
     Output: ["JFK","ATL","JFK","SFO","ATL","SFO"]
@@ -25,7 +25,7 @@
 
 [原题链接](https://leetcode.com/problems/reconstruct-itinerary/)
 
-### 解题思路
+#### 解题思路
 将所有的机票用数组保存起来，最后我们就是要找出一条路径将机票用完，并且如果有多条路径，就找字典序最小的。用一个hashmap<String,PriorityQueue<String>>保存每个点及其邻节点，然后使用深度遍历，第一次得到的结果便是答案（因为每次都是用的最小路径）。 另外一种方法是每次找到终点，然后删除该点继续查找下一个终点，最后得到的结果反转即可。
 
 其实这是用来计算Euler circuit的Hierholzer’s Algorithm, 伪代码见下：

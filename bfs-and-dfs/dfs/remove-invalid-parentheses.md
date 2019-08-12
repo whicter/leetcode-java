@@ -26,7 +26,7 @@ In each step, make sure:
 - Max removal rmL rmR and num of open parens are non negative.
 - De-duplicate by adding to a HashSet.
 
-###  Java代码实现
+#### Java代码实现
 
 ``` java
 class Solution {
