@@ -28,7 +28,7 @@
 ### 解题思路
 此题技巧在于，每个节点和祖先节点的最大的差，是出现在当前节点和min Ancestor和max Ancestor之中。因此题目也转化为树的DFS遍历过程中维护最大和最小的ancestor
 
-### Java代码实现-DFS：
+#### Java代码实现-DFS：
 
 ```java
 /**
