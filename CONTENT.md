@@ -9,6 +9,23 @@
   * [\[LeetCode\] 189. Rotate Array](data-structure/array/rotate-array.md)
   * [\[LeetCode\] 215. Kth Largest Element in an Array](data-structure/array/kth-largest-element-in-an-array.md)
   * [\[LeetCode\] 243. Shortest Word Distance](data-structure/array/shortest-word-distance.md)
+* [Binary Tree](data-structure/binary-tree.md)
+  * [Binary Tree BFS and DFS](data-structure/binary-tree/binary-tree-bfs-and-dfs.md)
+    * [\[LeetCode\] 104. Maximum Depth of Binary Tree](data-structure/binary-tree/binary-tree-bfs-and-dfs/maximum-depth-of-binary-tree.md)
+    * [\[LeetCode\] 112. Path Sum](data-structure/binary-tree/binary-tree-bfs-and-dfs/path-sum.md)
+    * [\[LeetCode\] 113. Path Sum II](data-structure/binary-tree/binary-tree-bfs-and-dfs/path-sum-ii.md)
+    * [\[LeetCode\] 124. Binary Tree Maximum Path Sum](data-structure/binary-tree/binary-tree-bfs-and-dfs/binary-tree-maximum-path-sum.md)
+    * [\[LeetCode\] 236. Lowest Common Ancestor of a Binary Tree](data-structure/binary-tree/binary-tree-bfs-and-dfs/lowest-common-ancestor-of-a-binary-tree.md)
+    * [\[LeetCode\] 1026. Maximum Difference Between Node and Ancestor](data-structure/binary-tree/binary-tree-bfs-and-dfs/maximum-difference-between-node-and-ancestor.md)
+  * [Tree Traversal](data-structure/binary-tree/tree-traversal.md)
+    * [\[LeetCode\] 94. Binary Tree Inorder Traversal](data-structure/binary-tree/tree-traversal/binary-tree-inorder-traversal.md)
+    * [\[LeetCode\] 100. Same Tree](data-structure/binary-tree/tree-traversal/same-tree.md)
+    * [\[LeetCode\] 144. Binary Tree Preorder Traversal](data-structure/binary-tree/tree-traversal/binary-tree-preorder-traversal.md)
+    * [\[LeetCode\] 145. Binary Tree Postorder Traversal](data-structure/binary-tree/tree-traversal/binary-tree-postorder-traversal.md)
+    * [\[LeetCode\] 297. Serialize and Deserialize Binary Tree](data-structure/binary-tree/tree-traversal/serialize-and-deserialize-binary-tree.md)
+  * [Binary Search Tree \(BST\)](data-structure/binary-tree/binary-search-tree-bst.md)
+    * [\[LeetCode\] 450. Delete Node in a BST](data-structure/binary-tree/binary-search-tree-bst/delete-node-in-a-bst.md)
+    * [\[LeetCode\] 701. Insert into a Binary Search Tree](data-structure/binary-tree/binary-search-tree-bst/insert-into-a-binary-search-tree.md)
 * [Hash \(HashMap\)](data-structure/hash-hashmap.md)
   * [Summary](data-structure/hash/summary.md)
   * [\[LeetCode\] 1. Two Sum](data-structure/hash-hashmap/two-sum.md)
@@ -17,6 +34,7 @@
   * [\[LeetCode\] 560. Subarray Sum Equals K](data-structure/hash-hashmap/subarray-sum-equals-k.md)
   * [\[LeetCode\] 244. Shortest Word Distance II](data-structure/hash/shortest-word-distance-ii.md)
   * [\[LeetCode\] 245. Shortest Word Distance III](data-structure/hash/shortest-word-distance-iii.md)
+* test2
 * [Heap \(PriorityQueue\)](data-structure/heap-priorityqueue.md)
   * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
   * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
@@ -52,25 +70,6 @@
   * [\[LeetCode\] 39. Combination Sum](bfs-and-dfs/backtracking/combination-sum.md)
   * [\[LeetCode\] 51. N-Queen](bfs-and-dfs/backtracking/n-queen.md)
   * [\[LeetCode\] 79. Word Search](bfs-and-dfs/backtracking/word-search.md)
-
-## Binary Tree
-
-* [Binary Tree BFS and DFS ](binary-tree/tree-bfs-and-dfs/bfs-and-dfs-in-tree.md)
-  * [\[LeetCode\] 104. Maximum Depth of Binary Tree](binary-tree/tree-bfs-and-dfs/maximum-depth-of-binary-tree.md)
-  * [\[LeetCode\] 112. Path Sum](binary-tree/tree-bfs-and-dfs/path-sum.md)
-  * [\[LeetCode\] 113. Path Sum II](binary-tree/tree-bfs-and-dfs/path-sum-ii.md)
-  * [\[LeetCode\] 124. Binary Tree Maximum Path Sum](binary-tree/tree-bfs-and-dfs/binary-tree-maximum-path-sum.md)
-  * [\[LeetCode\] 236. Lowest Common Ancestor of a Binary Tree](binary-tree/tree-bfs-and-dfs/lowest-common-ancestor-of-a-binary-tree.md)
-  * [\[LeetCode\] 1026. Maximum Difference Between Node and Ancestor](binary-tree/tree-bfs-and-dfs/maximum-difference-between-node-and-ancestor.md)
-* [Tree Traversal](binary-tree/tree-traversal-by-level.md)
-  * [\[LeetCode\] 94. Binary Tree Inorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-inorder-traversal.md)
-  * [\[LeetCode\] 100. Same Tree](binary-tree/tree-traversal-by-level/same-tree.md)
-  * [\[LeetCode\] 144. Binary Tree Preorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-preorder-traversal.md)
-  * [\[LeetCode\] 145. Binary Tree Postorder Traversal](binary-tree/tree-traversal-by-level/binary-tree-postorder-traversal.md)
-  * [\[LeetCode\] 297. Serialize and Deserialize Binary Tree](binary-tree/tree-traversal-by-level/serialize-and-deserialize-binary-tree.md)
-* BST
-  * [\[LeetCode\] 450. Delete Node in a BST](binary-tree/tree-bfs-and-dfs/delete-node-in-a-bst.md)
-  * [\[LeetCode\] 701. Insert into a Binary Search Tree](binary-tree/tree-bfs-and-dfs/insert-into-a-binary-search-tree.md)
 
 ## Bit Manipulation
 
