@@ -7,17 +7,17 @@ s (water), count the number of islands. An island is surrounded by water and is 
 
 #### Example 1
 > 11110
-> 11010
-> 11000
-> 00000
+> <br>11010
+> <br>11000
+> <br>00000
 
 Answer: 1
 
 #### Example 2
-> 11000
-> 11000
-> 00100
-> 00011
+> <br>11000
+> <br>11000
+> <br>00100
+> <br>00011
 
 Answer: 3
 
