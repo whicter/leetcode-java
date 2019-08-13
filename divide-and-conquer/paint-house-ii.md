@@ -36,7 +36,7 @@ Could you solve it in O(nk) runtime?
 
 在实际操作中，需要对于房子i，遍历每一个成本j，这样可以不断更新curMin, curSecMin 以及 minIdx
 
-### Java代码实现：
+#### Java代码实现：
 
 ```java
 class Solution {
