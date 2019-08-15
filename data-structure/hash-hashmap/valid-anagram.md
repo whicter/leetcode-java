@@ -16,6 +16,7 @@ What if the inputs contain unicode characters? How would you adapt your solution
 ### 解题思路
 用一个长度为26的int array来模拟hashmap
 类似题目还有[Ransom Note](https://leetcode.com/problems/ransom-note/)
+
 ####  Java代码实现
 
 ``` java

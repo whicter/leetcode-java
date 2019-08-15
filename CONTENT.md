@@ -25,6 +25,7 @@
     * [\[LeetCode\] 145. Binary Tree Postorder Traversal](data-structure/binary-tree/tree-traversal/binary-tree-postorder-traversal.md)
     * [\[LeetCode\] 173. Binary Search Tree Iterator](data-structure/binary-tree/tree-traversal/leetcode-173-binary-search-tree-iterator.md)
     * [\[LeetCode\] 297. Serialize and Deserialize Binary Tree](data-structure/binary-tree/tree-traversal/serialize-and-deserialize-binary-tree.md)
+    * [\[LeetCode\] 314. Binary Tree Vertical Order Traversal](data-structure/binary-tree/tree-traversal/binary-tree-vertical-order-traversal.md)
   * [Binary Search Tree \(BST\)](data-structure/binary-tree/binary-search-tree-bst.md)
     * [\[LeetCode\] 450. Delete Node in a BST](data-structure/binary-tree/binary-search-tree-bst/delete-node-in-a-bst.md)
     * [\[LeetCode\] 701. Insert into a Binary Search Tree](data-structure/binary-tree/binary-search-tree-bst/insert-into-a-binary-search-tree.md)
@@ -38,6 +39,9 @@
   * [\[LeetCode\] 245. Shortest Word Distance III](data-structure/hash/shortest-word-distance-iii.md)
 * [Heap \(PriorityQueue\)](data-structure/heap-priorityqueue.md)
   * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
+  * [\[LeetCode\] 49. Group Anagrams](data-structure/hash/group-anagrams.md)
+  * [\[LeetCode\] 253. Meeting Rooms II](data-structure/heap-priorityqueue/meeting-rooms-ii.md)
+  * [\[LeetCode\] 347. Top K Frequent Elements](data-structure/heap-priorityqueue/top-k-frequent-elements.md)
   * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
 * [LinkedList](data-structure/linkedlist.md)
   * [Fast / Slow Pointers](data-structure/linkedlist/fast-slow-pointers.md)
@@ -82,15 +86,16 @@
 
 ## Dynamic Programming
 
-* [DP-Summary](divide-and-conquer/summary.md)
+* [DP-Summary](dynamic-programming/summary.md)
+* [\[LeetCode\] 5. Longest Palindromic Substring](dynamic-programming/longest-palindromic-substring.md)
 * [\[LeetCode\] 10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
-* [\[LeetCode\] 53.Maximum Subarray](divide-and-conquer/maximum-subarray.md)
+* [\[LeetCode\] 53.Maximum Subarray](dynamic-programming/maximum-subarray.md)
 * [\[LeetCode\] 72. Edit Distance](dynamic-programming/edit-distance.md)
 * [\[LeetCode\] 139. Word Break](dynamic-programming/word-break.md)
-* [\[LeetCode\] 265. Paint House II](divide-and-conquer/paint-house-ii.md)
-* [\[LeetCode\] 300. Longest Increasing Subsequence](divide-and-conquer/longest-increasing-subsequence.md)
-* [\[LeetCode\] 1048. Longest String Chain](divide-and-conquer/longest-string-chain.md)
-* [\[LintCode\] 79. Longest Common Substring](divide-and-conquer/longest-common-substring.md)
+* [\[LeetCode\] 265. Paint House II](dynamic-programming/paint-house-ii.md)
+* [\[LeetCode\] 300. Longest Increasing Subsequence](dynamic-programming/longest-increasing-subsequence.md)
+* [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
+* [\[LintCode\] 79. Longest Common Substring](dynamic-programming/longest-common-substring.md)
 
 ## Search & Sort
 
