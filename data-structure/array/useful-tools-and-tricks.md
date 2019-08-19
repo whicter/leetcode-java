@@ -19,6 +19,13 @@ public int partition(int[]nums, int leftIndex, int rightIndex) {
 ```
 **Sample problem:** LeeCode 215. Kth Largest Element in an Array
 
+## Iterate over the array twice
+
+Iterate the array from beginning to end and then from end to beginning. Then combine the results
+
+**Sample problem:** LeeCode 238. Product of Array Except Self
+
+
 
 
 
