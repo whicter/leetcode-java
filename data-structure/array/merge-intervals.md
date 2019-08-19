@@ -47,6 +47,46 @@ class Solution {
         return res;
     }
 }
+
+/*
+    input types have been changed on April 15, 2019.
+*/
+
+class Solution {
+    public int[][] merge(int[][] intervals) {
+        if (intervals == null || intervals.length == 0) {
+            return intervals;
+        }
+        
+        Arrays.sort(intervals, (i1, i2) -> Integer.compare(i1[0], i2[0]));
+        
+        List<int []> res = new ArrayList<>();
+        res.add(intervals[0]);
+        
+        int[] preInterval = intervals[0];
+        for (int i = 1; i < intervals.length; i++) {
+            int[] cur = intervals[i];
+            
+            if (cur[0] > preInterval[1]) {
+                res.add(cur);
+                preInterval = cur;
+            } else if (cur[1] > preInterval[1]) {
+                preInterval[1] = cur[1];
+                res.remove(res.size() - 1);
+                res.add(preInterval);
+            }
+            
+        }
+        
+        int [][] result = new int [res.size()][2];
+        for (int i = 0 ; i < res.size() ; ++i) {
+            int [] v = res.get(i);
+            result[i][0] = v[0];
+            result[i][1] = v[1];
+        }
+        return result;
+    }
+}
 ```
 
 
