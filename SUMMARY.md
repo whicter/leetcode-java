@@ -1,7 +1,6 @@
 # Summary
 
 ## Preface
-
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -99,6 +98,7 @@
 * [\[LeetCode\] 53.Maximum Subarray](dynamic-programming/maximum-subarray.md)
 * [\[LeetCode\] 72. Edit Distance](dynamic-programming/edit-distance.md)
 * [\[LeetCode\] 139. Word Break](dynamic-programming/word-break.md)
+* [\[LeetCode\] 152. Maximum Product Subarray](dynamic-programming/maximum-product-subarray.md)
 * [\[LeetCode\] 265. Paint House II](dynamic-programming/paint-house-ii.md)
 * [\[LeetCode\] 300. Longest Increasing Subsequence](dynamic-programming/longest-increasing-subsequence.md)
 * [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
