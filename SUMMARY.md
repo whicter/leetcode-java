@@ -1,6 +1,8 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -127,6 +129,7 @@
 * [\[LeetCode\] 11. Container With Most Water](two-pointers/container-with-most-water.md)
 * [\[LeetCode\] 15. 3Sum](two-pointers/3sum.md)
 * [\[LeetCode\] 42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
+* [Sort Colors](two-pointers/sort-colors.md)
 * [\[LeetCode\] 76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
 * [\[LeetCode\] 159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
 
