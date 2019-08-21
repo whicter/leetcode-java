@@ -133,6 +133,15 @@
 * [\[LeetCode\] 76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
 * [\[LeetCode\] 159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
 
+## Design
+
+* [LRU Cache](design/lru-cache.md)
+* [System Design](design/system-design.md)
+  * [Uber Design](design/system-design/uber-design.md)
+  * [Post 系统设计（Top K）](design/system-design/post-xi-tong-she-ji-ff08-top-k.md)
+  * [Twitter Design](design/system-design/twitter-design.md)
+  * [Tiny URL Design](design/system-design/tiny-url-design.md)
+
 ## System Design
 
 * [Uber Design](system-design/uber-design.md)
