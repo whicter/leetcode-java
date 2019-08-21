@@ -1,7 +1,6 @@
 # Summary
 
 ## Preface
-
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -137,7 +136,16 @@
 * [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
 * [\[LeetCode\] 460. LFU Cache](design/lfu-cache.md)
 * [System Design](design/system-design.md)
-  * [Uber Design](design/system-design/uber-design.md)
+  * [Glossary](design/system-design/glossary.md)
+    * [Load Balancing](design/system-design/glossary/load-balancing.md)
+    * [Caching](design/system-design/glossary/caching.md)
+    * [Data Patitioning](design/system-design/glossary/data-patitioning.md)
+    * [Indexes](design/system-design/glossary/indexes.md)
+    * [Client-Server Communication](design/system-design/glossary/client-server-communication.md)
+    * [Redundancy and Replication](design/system-design/glossary/redundancy-and-replication.md)
+    * [SQL vs. NoSQL](design/system-design/glossary/sql-vs-nosql.md)
+    * [CAP Theorem](design/system-design/glossary/cap-theorem.md)
+    * [Consistent Hashing](design/system-design/glossary/consistent-hashing.md)
   * [Post 系统设计（Top K）](design/system-design/post-xi-tong-she-ji-ff08-top-k.md)
   * [Twitter Design](design/system-design/twitter-design.md)
   * [Tiny URL Design](design/system-design/tiny-url-design.md)
