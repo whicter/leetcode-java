@@ -1,4 +1,4 @@
-# 146. LRU Cache
+# 460. LFU Cache
 
 ### 题目描述
 

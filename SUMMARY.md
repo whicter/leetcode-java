@@ -136,7 +136,7 @@
 ## Design
 
 * [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
-* [LFU Cache](design/lfu-cache.md)
+* [\[LeetCode\] 460. LFU Cache](design/lfu-cache.md)
 * [System Design](design/system-design.md)
   * [Uber Design](design/system-design/uber-design.md)
   * [Post 系统设计（Top K）](design/system-design/post-xi-tong-she-ji-ff08-top-k.md)
