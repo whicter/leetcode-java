@@ -19,7 +19,7 @@ Could you do both operations in O(1) time complexity?
 
 因此我们新建一个Node class, 作为链表的节点，同时包括key value的信息 （其实key的信息都可以不用包括在内）
 
-### Java代码实现：
+#### Java代码实现：
 
 ```java
 class Node {

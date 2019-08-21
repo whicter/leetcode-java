@@ -19,7 +19,7 @@ Could you do both operations in O(1) time complexity?
 - 由于可能有多个key有同一个frequency，因此需要HashMap来保存count `<->` ListOfKeys。需要注意的是此处的list需要用LinkedHashSet，因为如果frequency相同需要去除least used. 同时HashSet的remove操作也是O(1)
 - 同时还需要min variable来维护当前最小的frequency
 
-### Java代码实现：
+#### Java代码实现：
 
 ```java
 class LFUCache {
