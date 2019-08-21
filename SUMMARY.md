@@ -129,25 +129,16 @@
 * [\[LeetCode\] 11. Container With Most Water](two-pointers/container-with-most-water.md)
 * [\[LeetCode\] 15. 3Sum](two-pointers/3sum.md)
 * [\[LeetCode\] 42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
-* [Sort Colors](two-pointers/sort-colors.md)
+* [\[LeetCode\] 75. Sort Colors](two-pointers/sort-colors.md)
 * [\[LeetCode\] 76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
 * [\[LeetCode\] 159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
 
 ## Design
 
-* [LRU Cache](design/lru-cache.md)
+* [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
 * [System Design](design/system-design.md)
   * [Uber Design](design/system-design/uber-design.md)
   * [Post 系统设计（Top K）](design/system-design/post-xi-tong-she-ji-ff08-top-k.md)
   * [Twitter Design](design/system-design/twitter-design.md)
   * [Tiny URL Design](design/system-design/tiny-url-design.md)
-
-## System Design
-
-* [Uber Design](system-design/uber-design.md)
-  * [如何设计承载千万用户的Uber实时架构 From BitTiger](system-design/uber-design/uber-design-bittiger.md)
-* [Top K Frequent Elements in Recent X mins.](top-k-frequent-elements-in-recent-x-mins.md)
-  * [Post系统的设计 ](system-design/top-k/post-system-design.md)
-* [Twitter Design](system-design/twitter-design.md)
-* [Tiny URL Design](system-design/tiny-url-design.md)
 
