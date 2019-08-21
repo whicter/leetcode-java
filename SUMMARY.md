@@ -1,12 +1,12 @@
 # Summary
 
 ## Preface
+
 * [Content](CONTENT.md)
 
 ## Data Structure
 
 * [Array](data-structure/array.md)
-  * [Useful Tools and Tricks](data-structure/array/useful-tools-and-tricks.md)
   * [\[LeetCode\] 26. Remove Duplicates from Sorted Array](data-structure/array/remove-duplicates-from-sorted-array.md)
   * [\[LeetCode\] 56. Merge Intervals](data-structure/array/merge-intervals.md)
   * [\[LeetCode\] 57. Insert Interval](data-structure/array/insert-interval.md)
@@ -36,7 +36,6 @@
     * [\[LeetCode\] 450. Delete Node in a BST](data-structure/binary-tree/binary-search-tree-bst/delete-node-in-a-bst.md)
     * [\[LeetCode\] 701. Insert into a Binary Search Tree](data-structure/binary-tree/binary-search-tree-bst/insert-into-a-binary-search-tree.md)
 * [Hash \(HashMap\)](data-structure/hash-hashmap.md)
-  * [Summary](data-structure/hash/summary.md)
   * [\[LeetCode\] 1. Two Sum](data-structure/hash-hashmap/two-sum.md)
   * [\[LeetCode\] 242. Valid Anagram](data-structure/hash-hashmap/valid-anagram.md)
   * [\[LeetCode\] 451. Sort Characters By Frequency](data-structure/hash-hashmap/sort-characters-by-frequency.md)
