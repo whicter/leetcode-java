@@ -1,7 +1,6 @@
 # Summary
 
 ## Preface
-
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -32,6 +31,7 @@
     * [\[LeetCode\] 173. Binary Search Tree Iterator](data-structure/binary-tree/tree-traversal/leetcode-173-binary-search-tree-iterator.md)
     * [\[LeetCode\] 297. Serialize and Deserialize Binary Tree](data-structure/binary-tree/tree-traversal/serialize-and-deserialize-binary-tree.md)
     * [\[LeetCode\] 314. Binary Tree Vertical Order Traversal](data-structure/binary-tree/tree-traversal/binary-tree-vertical-order-traversal.md)
+    * [\[LeetCode\] 545. Boundary of Binary Tree](data-structure/binary-tree/tree-traversal/boundary-of-binary-tree.md)
   * [Binary Search Tree \(BST\)](data-structure/binary-tree/binary-search-tree-bst.md)
     * [\[LeetCode\] 450. Delete Node in a BST](data-structure/binary-tree/binary-search-tree-bst/delete-node-in-a-bst.md)
     * [\[LeetCode\] 701. Insert into a Binary Search Tree](data-structure/binary-tree/binary-search-tree-bst/insert-into-a-binary-search-tree.md)
