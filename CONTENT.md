@@ -58,6 +58,7 @@
 * [String](data-structure/string.md)
   * [\[LeetCode\] 68. Text Justification](data-structure/string/text-justification.md)
   * [\[LeetCode\] 937. Reorder Log Files](data-structure/string/reorder-log-files.md)
+  * [\[LeetCode\] 316.Remove Duplicate Letters](data-structure/string/remove-duplicate-letters.md)
 
 ## BFS & DFS
 
@@ -144,9 +145,4 @@
   * [Post 系统设计（Top K）](design/system-design/post-xi-tong-she-ji-ff08-top-k.md)
   * [Twitter Design](design/system-design/twitter-design.md)
   * [Tiny URL Design](design/system-design/tiny-url-design.md)
-
-
-
-
-
 
