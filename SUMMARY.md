@@ -1,6 +1,7 @@
 # Summary
 
 ## Preface
+
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -102,6 +103,8 @@
 * [\[LeetCode\] 152. Maximum Product Subarray](dynamic-programming/maximum-product-subarray.md)
 * [\[LeetCode\] 265. Paint House II](dynamic-programming/paint-house-ii.md)
 * [\[LeetCode\] 300. Longest Increasing Subsequence](dynamic-programming/longest-increasing-subsequence.md)
+* [\[LeetCode\] 322. Coin Change](dynamic-programming/coin-change.md)
+* [\[LeetCode\] 518. Coin Change 2](dynamic-programming/coin-change-2.md)
 * [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
 * [\[LintCode\] 79. Longest Common Substring](dynamic-programming/longest-common-substring.md)
 

@@ -31,6 +31,7 @@ g(i) = min{a[i] \* f(i - 1), a[i] \* g(i - 1), a[i]}
 
 于此同时维护global
 
+#### Java 代码实现
 ```java
 class Solution {
     public int maxProduct(int[] nums) {
