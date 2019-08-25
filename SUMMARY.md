@@ -2,6 +2,7 @@
 
 ## Preface
 
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -107,6 +108,7 @@
 * [\[LeetCode\] 322. Coin Change](dynamic-programming/coin-change.md)
 * [\[LeetCode\] 518. Coin Change 2](dynamic-programming/coin-change-2.md)
 * [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
+* [\[LeetCode\] 1143. Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
 * [\[LintCode\] 79. Longest Common Substring](dynamic-programming/longest-common-substring.md)
 
 ## Search & Sort
@@ -129,6 +131,7 @@
 ## Two Pointers
 
 * [Two Pointers Summary](two-pointers/two-pointers-summary.md)
+* [\[LeetCode\] 3. Longest Substring Without Repeating Characters](two-pointers/longest-substring-without-repeating-characters.md)
 * [\[LeetCode\] 11. Container With Most Water](two-pointers/container-with-most-water.md)
 * [\[LeetCode\] 15. 3Sum](two-pointers/3sum.md)
 * [\[LeetCode\] 42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
