@@ -109,19 +109,21 @@
 ## Search & Sort
 
 * [Binary Search](search/binary-search.md)
-  * [\[LeetCode\] 4. Median of Two Sorted Arrays](search/median-of-two-sorted-array.md)
-  * [\[LeetCode\] 33. Search in Rotated Sorted Array](search/search-in-rotated-sorted-array.md)
-  * [\[LeetCode\] 34. Search for a Range](search/search-for-a-range.md)
-  * [\[LeetCode\] 35. Search Insert Position](search/search-insert-position.md)
-  * [\[LeetCode\]162. Find Peak Element](search/find-peak-element.md)
-  * [\[LeetCode\] 278. First Bad Version](search/first-bad-version.md)
-  * [\[LeetCode\] 658. Find K Closest Elements](search/find-k-closest-elements.md)
-  * [\[LeetCode\] 852. Peak Index in a Mountain Array](search/peak-index-in-a-mountain-array.md)
+  * [\[LeetCode\] 4. Median of Two Sorted Arrays](search/binary-search/median-of-two-sorted-array.md)
+  * [\[LeetCode\] 33. Search in Rotated Sorted Array](search/binary-search/search-in-rotated-sorted-array.md)
+  * [\[LeetCode\] 34. Search for a Range](search/binary-search/search-for-a-range.md)
+  * [\[LeetCode\] 35. Search Insert Position](search/binary-search/search-insert-position.md)
+  * [\[LeetCode\]162. Find Peak Element](search/binary-search/find-peak-element.md)
+  * [\[LeetCode\] 278. First Bad Version](search/binary-search/first-bad-version.md)
+  * [\[LeetCode\] 658. Find K Closest Elements](search/binary-search/find-k-closest-elements.md)
+  * [\[LeetCode\] 852. Peak Index in a Mountain Array](search/binary-search/peak-index-in-a-mountain-array.md)
 * [Union Find](search/union-find.md)
   * [\[LeetCode\] 547. Friend Circle](search/union-find/friend-circle.md)
   * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
   * [\[LintCode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
 * [Topological Sort](search/topological-search.md)
+  * [\[LeetCode\] 207. Course Schedule](search/topological-search/course-schedule.md)
+  * [\[LeetCode\] 210. Course Schedule II](search/topological-search/course-schedule-ii.md)
 
 ## Two Pointers
 
