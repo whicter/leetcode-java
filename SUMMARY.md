@@ -105,6 +105,7 @@
 * [\[LeetCode\] 265. Paint House II](dynamic-programming/paint-house-ii.md)
 * [\[LeetCode\] 300. Longest Increasing Subsequence](dynamic-programming/longest-increasing-subsequence.md)
 * [\[LeetCode\] 322. Coin Change](dynamic-programming/coin-change.md)
+* [\[LeetCode\] 516. Longest Palindromic Subsequence](dynamic-programming/longest-palindromic-subsequence.md)
 * [\[LeetCode\] 518. Coin Change 2](dynamic-programming/coin-change-2.md)
 * [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
 * [\[LeetCode\] 1143. Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
