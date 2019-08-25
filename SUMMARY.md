@@ -2,6 +2,7 @@
 
 ## Preface
 
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -40,6 +41,7 @@
     * [\[LeetCode\] 1038. Binary Search Tree to Greater Sum Tree](data-structure/binary-tree/binary-search-tree-bst/binary-search-tree-to-greater-sum-tree.md)
 * [Hash \(HashMap\)](data-structure/hash-hashmap.md)
   * [\[LeetCode\] 1. Two Sum](data-structure/hash-hashmap/two-sum.md)
+  * [\[LeetCode\] 128. Longest Consecutive Sequence](data-structure/hash-hashmap/longest-consecutive-sequence.md)
   * [\[LeetCode\] 242. Valid Anagram](data-structure/hash-hashmap/valid-anagram.md)
   * [\[LeetCode\] 451. Sort Characters By Frequency](data-structure/hash-hashmap/sort-characters-by-frequency.md)
   * [\[LeetCode\] 560. Subarray Sum Equals K](data-structure/hash-hashmap/subarray-sum-equals-k.md)
