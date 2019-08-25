@@ -2,6 +2,7 @@
 
 ## Preface
 
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -128,6 +129,8 @@
   * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
   * [\[LintCode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
 * [Topological Sort](search/topological-search.md)
+  * [\[LeetCode\] 207. Course Schedule](search/topological-search/course-schedule.md)
+  * [\[LeetCode\]210. Course Schedule II](search/topological-search/course-schedule-ii.md)
 
 ## Two Pointers
 
