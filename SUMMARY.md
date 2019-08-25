@@ -2,7 +2,6 @@
 
 ## Preface
 
-* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -38,7 +37,7 @@
   * [Binary Search Tree \(BST\)](data-structure/binary-tree/binary-search-tree-bst.md)
     * [\[LeetCode\] 450. Delete Node in a BST](data-structure/binary-tree/binary-search-tree-bst/delete-node-in-a-bst.md)
     * [\[LeetCode\] 701. Insert into a Binary Search Tree](data-structure/binary-tree/binary-search-tree-bst/insert-into-a-binary-search-tree.md)
-    * [Binary Search Tree to Greater Sum Tree](data-structure/binary-tree/binary-search-tree-bst/binary-search-tree-to-greater-sum-tree.md)
+    * [\[LeetCode\] 1038. Binary Search Tree to Greater Sum Tree](data-structure/binary-tree/binary-search-tree-bst/binary-search-tree-to-greater-sum-tree.md)
 * [Hash \(HashMap\)](data-structure/hash-hashmap.md)
   * [\[LeetCode\] 1. Two Sum](data-structure/hash-hashmap/two-sum.md)
   * [\[LeetCode\] 242. Valid Anagram](data-structure/hash-hashmap/valid-anagram.md)
