@@ -1,8 +1,6 @@
 # Summary
 
 ## Preface
-
-* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
