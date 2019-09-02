@@ -45,6 +45,7 @@
 * [Heap \(PriorityQueue\)](data-structure/heap-priorityqueue.md)
   * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
   * [\[LeetCode\] 253. Meeting Rooms II](data-structure/heap-priorityqueue/meeting-rooms-ii.md)
+  * [\[LeetCode\] 295. Find Median from Data Stream](data-structure/heap-priorityqueue/find-median-from-data-stream.md)
   * [\[LeetCode\] 347. Top K Frequent Elements](data-structure/heap-priorityqueue/top-k-frequent-elements.md)
   * [\[LeetCode\] 692. Top K Frequent Words](data-structure/heap-priorityqueue/top-k-frequent-words.md)
   * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
