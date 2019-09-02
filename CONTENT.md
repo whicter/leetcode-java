@@ -46,6 +46,7 @@
   * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
   * [\[LeetCode\] 253. Meeting Rooms II](data-structure/heap-priorityqueue/meeting-rooms-ii.md)
   * [\[LeetCode\] 347. Top K Frequent Elements](data-structure/heap-priorityqueue/top-k-frequent-elements.md)
+  * [\[LeetCode\] 692. Top K Frequent Words](data-structure/heap-priorityqueue/top-k-frequent-words.md)
   * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
 * [LinkedList](data-structure/linkedlist.md)
   * [Fast / Slow Pointers](data-structure/linkedlist/fast-slow-pointers.md)
