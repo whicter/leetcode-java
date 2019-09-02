@@ -22,7 +22,7 @@
 [原题链接](https://leetcode.com/problems/top-k-frequent-elements/solution/)
 
 ### 解题思路
-hashmap记录frequency，然后用最大堆来维护
+hashmap记录frequency，然后用最小堆来维护
 Java的优先队列是默认最小堆。这里需要最小堆的原因是因为每次超过k的时候需要把最小元素（堆顶）去掉
 
 #### Java代码实现
