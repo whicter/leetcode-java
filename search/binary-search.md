@@ -1,3 +1,5 @@
+# Binary Search
+
 ## Binary Search Basic Template
 须仔细体会循环终结条件
 ### Recursion

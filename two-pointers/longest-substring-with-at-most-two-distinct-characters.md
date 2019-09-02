@@ -26,7 +26,7 @@
 
 因此可以建立字典，用来记录字符出现的最后位置来决定需要删除的字符以及跳转位置
 
-### Java代码实现：
+#### Java代码实现：
 
 ```java
 class Solution {
@@ -61,9 +61,9 @@ class Solution {
 }   
 ```
 
-一个更好的方法是用一个map来记录字符及其出现次数。右指针移动，不断更新map, 当发现map里的字符个数大于规定个数的时候，开始移动左指针，同时更新map,直到map里的字符个数等于规定个数，中间不断更新包含规定字符个数的最大长度。这样即使follow up扩展到k个字符也能适用
+一个更好的方法是用一个map来记录字符及其出现次数。右指针移动，不断更新map, 当发现map里的字符个数大于规定个数的时候，开始移动左指针，同时更新map,直到map里的字符个数等于规定个数，中间不断更新包含规定字符个数的最大长度。这样即使follow up扩展到k个字符也能适用, 比如 [340. Longest Substring with At Most K Distinct Characters](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/)
 
-### Java代码实现
+#### Java代码实现
 ```java
 class Solution {
     public int lengthOfLongestSubstringTwoDistinct(String s) {
@@ -72,20 +72,15 @@ class Solution {
         int i = 0;
         int maxLen = 0;
         while (i < s.length()) {
-            
+
             // 根据右指针指的当前字符更新map
             char c = s.charAt(i);
-            if (!map.containsKey(c)) {
-                map.put(c, 1);
-            } else {
-                map.put(c, map.get(c) + 1);
-            }
-            
+            map.put(c, map.getOrDefault(c, 0) + 1);
+
             // 移动左指针，直到map中字符数量降至规定数量
             while (map.size() > 2) {
                 char leftChar = s.charAt(left);
                 if (map.containsKey(leftChar)) {
-                
                     // 注意会有重复元素，所以先减小次数，只有次数降至0，才删除元素
                     map.put(leftChar, map.get(leftChar) - 1);                     
                     if (map.get(leftChar) == 0) { 

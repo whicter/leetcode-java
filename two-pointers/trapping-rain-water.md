@@ -21,7 +21,7 @@ lMax和rMax中较小的那个
 
 代码中加入了判断来找到第一对可能可以存水的高度：因为递增的左边或者递减的右边是无法存水的。当然这一部分判断也是optional的不影响最终的结果
 
-### Java代码实现
+#### Java代码实现
 
 ``` java
 public class Solution {

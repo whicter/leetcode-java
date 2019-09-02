@@ -2,7 +2,7 @@
 
 ### 题目描述
 
->IGiven a list of Connections, which is the Connection class (the city name at both ends of the edge and a cost between them), find edges that can connect all the cities and spend the least amount.
+>Given a list of Connections, which is the Connection class (the city name at both ends of the edge and a cost between them), find edges that can connect all the cities and spend the least amount.
 Return the connects if can connect all the cities, otherwise return empty list.
 
 ### Example 1:
@@ -39,7 +39,7 @@ Return the connects if can connect all the cities, otherwise return empty list.
 
 
 
-### Java代码实现
+#### Java代码实现
 
 ``` java
 /**

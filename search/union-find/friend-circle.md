@@ -2,7 +2,7 @@
 
 ### 题目描述
 
-> There are **N**students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a **direct** friend of B, and B is a **direct** friend of C, then A is an **indirect** friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.
+> There are **N** students in a class. Some of them are friends, while some are not. Their friendship is transitive in nature. For example, if A is a **direct** friend of B, and B is a **direct** friend of C, then A is an **indirect** friend of C. And we defined a friend circle is a group of students who are direct or indirect friends.
 <br>Given a **N*N** matrix M representing the friend relationship between students in the class. If M[i][j] = 1, then the ith and jth students are **direct** friends with each other, otherwise not. And you have to output the total number of friend circles among all the students.
 
 Example 1:
@@ -23,11 +23,7 @@ Example 1:
 思路一：DFS
 从某个人i出发，找到第一个i的朋友；然后再从这个朋友开始继续找。每次找到新朋友需要标记一下避免重复搜索和死循环
 
-思路二：Union Find
-两层循环把共同好友union起来
-然后一层循环，每次parent[i] == i的时候count++， 意味着这是一个新的集群的头
-
-### Java代码实现-DFS：
+#### Java代码实现-DFS：
 
 ```java
 class Solution {
@@ -54,7 +50,13 @@ class Solution {
 }
 ```
 
-### Java代码实现-Union Find
+
+
+思路二：Union Find
+两层循环把共同好友union起来
+然后一层循环，每次parent[i] == i的时候count++， 意味着这是一个新的集群的头
+
+#### Java代码实现-Union Find
 ```java
 class Solution {
     public int findCircleNum(int[][] M) {

@@ -69,7 +69,9 @@
 ``` java
 class Solution {
     public int shortestDistance(int[][] maze, int[] start, int[] dest) {
-        int[][] movingDirect = {{-1,0}, {1,0},{0,-1}, {0,1}};
+        int[][] movingDirect = {
+            {-1,0}, {1,0}, {0,-1}, {0,1}
+        };
         
         Queue<int[]> queue = new LinkedList<>();
         queue.add(start);

@@ -10,16 +10,20 @@
 [原题链接](https://leetcode.com/problems/edit-distance/discuss/)
 
 ### 解题思路
-维护二位数组dp[i][j]用来表示从初始状态到达word1[0, i] 和word[0, j]所需要的操作数
+维护二位数组dp[i][j]用来表示从初始状态到达word1[0, i] 和word2[0, j]所需要的操作数
 
 Case 1: word1[i] == word2[j], 
-f(i, j) = f(i - 1, j - 1)
+$$f(i, j) = f(i - 1, j - 1)$$
+
+
 
 Case 2: word1[i] != word2[j], 有三种操作，即添加，删除，替换
-f(i, j) = 1 + min { f(i, j - 1), f(i - 1, j), f(i - 1, j - 1) }
-f(i, j - 1)：insert operation
-f(i - 1, j) ：delete operation
-f(i - 1, j - 1) ：replace operation
+$$f(i, j) = 1 + min \{ f(i, j - 1), f(i - 1, j), f(i - 1, j - 1) \}$$
+
+where
+$$f(i, j - 1)$$：insert operation
+$$f(i - 1, j)$$ ：delete operation
+$$f(i - 1, j - 1)$$ ：replace operation
 
 ###  Java代码实现
 
