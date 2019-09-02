@@ -1,6 +1,8 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -48,7 +50,6 @@
   * [\[LeetCode\] 245. Shortest Word Distance III](data-structure/hash/shortest-word-distance-iii.md)
 * [Heap \(PriorityQueue\)](data-structure/heap-priorityqueue.md)
   * [\[LeetCode\] 21. Merge K Sorted Lists](data-structure/heap-priorityqueue/merge-k-sorted-lists.md)
-  * [\[LeetCode\] 49. Group Anagrams](data-structure/hash/group-anagrams.md)
   * [\[LeetCode\] 253. Meeting Rooms II](data-structure/heap-priorityqueue/meeting-rooms-ii.md)
   * [\[LeetCode\] 347. Top K Frequent Elements](data-structure/heap-priorityqueue/top-k-frequent-elements.md)
   * [\[LeetCode\] 973. K Closest Points to Origin](data-structure/heap-priorityqueue/k-closest-points-to-origin.md)
