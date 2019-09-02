@@ -122,6 +122,7 @@
   * [\[LeetCode\] 33. Search in Rotated Sorted Array](search/binary-search/search-in-rotated-sorted-array.md)
   * [\[LeetCode\] 34. Search for a Range](search/binary-search/search-for-a-range.md)
   * [\[LeetCode\] 35. Search Insert Position](search/binary-search/search-insert-position.md)
+  * [\[LeetCode\] 74. Search a 2D Matrix](search/binary-search/search-a-2d-matrix.md)
   * [\[LeetCode\]162. Find Peak Element](search/binary-search/find-peak-element.md)
   * [\[LeetCode\] 278. First Bad Version](search/binary-search/first-bad-version.md)
   * [\[LeetCode\] 658. Find K Closest Elements](search/binary-search/find-k-closest-elements.md)
