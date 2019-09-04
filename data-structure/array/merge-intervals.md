@@ -61,30 +61,27 @@ class Solution {
         Arrays.sort(intervals, (i1, i2) -> Integer.compare(i1[0], i2[0]));
         
         List<int []> res = new ArrayList<>();
-        res.add(intervals[0]);
         
         int[] preInterval = intervals[0];
+    
         for (int i = 1; i < intervals.length; i++) {
-            int[] cur = intervals[i];
-            
-            if (cur[0] > preInterval[1]) {
-                res.add(cur);
-                preInterval = cur;
-            } else if (cur[1] > preInterval[1]) {
-                preInterval[1] = cur[1];
-                res.remove(res.size() - 1);
+            int[] curInterval = intervals[i];
+            if (curInterval[0] > preInterval[1]) {
                 res.add(preInterval);
+                preInterval = curInterval;
+            } else if (curInterval[1] > preInterval[1]) {
+                preInterval[1] = curInterval[1];
             }
             
         }
+        res.add(preInterval);
         
         int [][] result = new int [res.size()][2];
         for (int i = 0 ; i < res.size() ; ++i) {
-            int [] v = res.get(i);
-            result[i][0] = v[0];
-            result[i][1] = v[1];
+            result[i] = res.get(i);
         }
         return result;
+        
     }
 }
 ```

@@ -64,4 +64,42 @@ class Solution {
         return res;
     }
 }
+
+/*
+    input types have been changed on April 15, 2019.
+*/
+class Solution {
+    public int[][] insert(int[][] intervals, int[] newInterval) {
+        List<int[]> res = new ArrayList<>();
+        boolean inserted = false;
+        
+        for (int[] interval : intervals) {
+            if (inserted || interval[1] < newInterval[0]) {
+                res.add(interval);
+            } else if (interval[0] > newInterval[1]) {
+                res.add(newInterval);
+                inserted = true;
+                res.add(interval);
+            } else {
+                newInterval[0] = Math.min(newInterval[0], interval[0]);
+                newInterval[1] = Math.max(newInterval[1], interval[1]);
+            }
+        }
+        
+        if (!inserted) {
+            res.add(newInterval);
+        }
+        
+        int[][] result = new int[res.size()][2];
+        
+        for (int i = 0; i < res.size(); i++) {
+            result[i] = res.get(i);
+        }
+        return result;
+        
+    }
+}
+
+
+
 ```

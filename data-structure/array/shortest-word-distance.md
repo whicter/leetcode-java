@@ -23,8 +23,8 @@ You may assume that word1 does not equal to word2, and word1 and word2 are both 
 Easy级别题，没什么好说的...可以设置一个indexUpdated的flag来判断在有重复String的时候index是否有更新
 
 可以看一下更有意思的相关题：
-- [244. Shortest Word Distance II](/data-structure/hash/shortest-word-distance-ii.md)
-- [245. Shortest Word Distance III](/data-structure/hash/shortest-word-distance-iii.md)
+- [244. Shortest Word Distance II](/data-structure/hash-hashmap/shortest-word-distance-ii.md)
+- [245. Shortest Word Distance III](/data-structure/hash-hashmap/shortest-word-distance-iii.md)
 
 
 #### Java代码实现
