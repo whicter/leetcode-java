@@ -10,7 +10,7 @@
 **Note:**
 You may assume k is always valid, 1 ≤ k ≤ array's length.
 
-[原题链接](https://leetcode.com/problems/rotate-array/description/)
+[原题链接](https://leetcode.com/problems/kth-largest-element-in-an-array/)
 
 ### 解题思路
 
