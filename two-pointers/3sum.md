@@ -9,7 +9,7 @@
 [原题链接](https://leetcode.com/problems/3sum/description/)
 
 ### 解题思路
-基础简单题。需要考虑去重已经边界值
+基础简单题。需要考虑去重以及边界值
 
 #### Java代码实现
 
@@ -49,7 +49,7 @@ class Solution {
                         }
                         
                         start ++;
-                    end --;
+                        end --;
                     } else if (startNum + endNum + cur < 0) {
                         start ++;
                     } else {
