@@ -28,9 +28,9 @@
 
 可以这样思考，找到在nums里是否存在目标和为sum的子集，可以分解为，对于每一个nums[i], 在去掉nums[i]的集合里是否存在目标和为sum - num[i]的子集
 
-定义原子操作$$f(sum, i)$$为在$$从1st -> ith$$元素中是否存在和为$$sum$$的子集
+定义原子操作$$f(sum, i)$$为在$$从1st -> ith$$元素序列中是否存在和为$$sum$$的子集
 
-$$f(sum, i) = f(sum, nums[i - 1])$$, for all $$0 -> i$$
+$$f(sum, i) = f(sum - num[i], nums[i - 1])$$, for all $$0 -> i$$
 
 
 递推公式为： $$dp[i][j] = dp[i - 1][j]$$ || $$dp[i - 1][j - nums[i - 1]]$$
