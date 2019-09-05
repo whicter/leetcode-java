@@ -27,7 +27,7 @@
 
 
 ### 解题思路
-和[207. Course Schedule](search/topological-search/course-schedule.md) 一样的思路，只是增加一个数组用来返回结果
+和[207. Course Schedule](/search/topological-search/course-schedule.md) 一样的思路，只是增加一个数组用来返回结果
 
 #### Java代码实现
 
