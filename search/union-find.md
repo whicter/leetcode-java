@@ -68,6 +68,8 @@ class UnionFind2_QuickUnion {
 
     public int findRoot(int i) {
         while(roots[i] != i) {
+            // Path Compression
+            parent[i] = parent[parent[i]];
             i = roots[i];
         }
         return i;

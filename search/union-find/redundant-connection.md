@@ -1,10 +1,11 @@
 # 684. Redundant Connection
+
 ### 题目描述
 
 >In this problem, a tree is an undirected graph that is connected and has no cycles.
-<br>The given input is a graph that started as a tree with N nodes (with distinct values 1, 2, ..., N), with one additional edge added. The added edge has two different vertices chosen from 1 to N, and was not an edge that already existed.
-<br>The resulting graph is given as a 2D-array of `edges`. Each element of edges is a pair `[u, v]` with `u < v`, that represents an undirected edge connecting nodes `u` and `v`.
-<br>Return an edge that can be removed so that the resulting graph is a tree of N nodes. If there are multiple answers, return the answer that occurs last in the given 2D-array. The answer edge `[u, v]` should be in the same format, with `u < v`.
+<br><br>The given input is a graph that started as a tree with N nodes (with distinct values 1, 2, ..., N), with one additional edge added. The added edge has two different vertices chosen from 1 to N, and was not an edge that already existed.
+<br><br>The resulting graph is given as a 2D-array of `edges`. Each element of edges is a pair `[u, v]` with `u < v`, that represents an undirected edge connecting nodes `u` and `v`.
+<br><br>Return an edge that can be removed so that the resulting graph is a tree of N nodes. If there are multiple answers, return the answer that occurs last in the given 2D-array. The answer edge `[u, v]` should be in the same format, with `u < v`.
 
 ### Example 1:
 
@@ -34,7 +35,7 @@
 
 
 ### 解题思路
-并查集基本模板
+并查集模板二
 
 
 ### Java代码实现
@@ -60,10 +61,21 @@ class Solution {
     }
     
     private int getRoot(int[] parents, int node) {
+    
+        private int getRoot(int[] parents, int node) {
+        int root = node;
+        while (root != parents[root]) {
+          root = parents[root];  
+        }
+        return root;
+        
+    /* recursion
         if (node != parents[node]) {
           parents[node] = getRoot(parents, parents[node]);  
         }
         return parents[node];
+        
+    */
     }
 
     private boolean find(int[] parents, int node1, int node2) {

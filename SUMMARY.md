@@ -1,7 +1,6 @@
 # Summary
 
 ## Preface
-
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -129,8 +128,8 @@
   * [\[LeetCode\] 658. Find K Closest Elements](search/binary-search/find-k-closest-elements.md)
   * [\[LeetCode\] 852. Peak Index in a Mountain Array](search/binary-search/peak-index-in-a-mountain-array.md)
 * [Union Find](search/union-find.md)
-  * [\[LeetCode\] 547. Friend Circle](search/union-find/friend-circle.md)
-  * [\[LeetCode\] 684. Redundant Connection](search/union-find/leetcode-684-redundant-connection.md)
+  * [\[LeetCode\] 547. Friend Circles](search/union-find/friend-circles.md)
+  * [\[LeetCode\] 684. Redundant Connection](search/union-find/redundant-connection.md)
   * [\[LintCode\] 629. Minimum Spanning Tree](search/union-find/minimum-spanning-tree.md)
 * [Topological Sort](search/topological-search.md)
   * [\[LeetCode\] 207. Course Schedule](search/topological-search/course-schedule.md)

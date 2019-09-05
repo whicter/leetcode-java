@@ -81,6 +81,7 @@ class Solution {
     
     public int find(int parent[], int i) {
         while (parent[i] != i) {
+            parent[i] = parent[parent[i]];
             i = parent[i];
         }
         return i;
