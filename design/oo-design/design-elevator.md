@@ -42,6 +42,7 @@ public class Request {
 public class Elevator {
     public static Elevator instance = null;
     private int currentFloor;
+
     public static Elevator( ) {
         if (instance == null) {  
         // late loading and eager loading
@@ -55,7 +56,8 @@ public class Elevator {
     public getInstance() {
         if (instance == null) {
             synchronized (SingletonDemo.class) {
-                instance = new Elevator();
+                if (instance == null) { // Check again
+                    instance = new Elevator();
             }   
         }
         return instance;
@@ -82,7 +84,7 @@ public RequestProcessCenter implements runnable {
     public LinkedList<Request> queue;
 
     public RequestProcessCenter( ) {
-            queue = new LinkedList<Request>( );
+        queue = new LinkedList<Request>( );
     }
     public void run() {
         while ( true ) {
