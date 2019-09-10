@@ -150,6 +150,8 @@
 
 * [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
 * [\[LeetCode\] 460. LFU Cache](design/lfu-cache.md)
+* [OO Design](design/oo-design.md)
+  * [Design Elevator](design/oo-design/design-elevator.md)
 * [System Design](design/system-design.md)
   * [Glossary](design/system-design/glossary.md)
     * [Load Balancing](design/system-design/glossary/load-balancing.md)
