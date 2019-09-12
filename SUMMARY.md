@@ -1,6 +1,8 @@
 # Summary
 
 ## Preface
+
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -152,6 +154,7 @@
 ## Design
 
 * [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
+* [\[LeetCode\] 432. All O\`one Data Structure](design/all-oone-data-structure.md)
 * [\[LeetCode\] 460. LFU Cache](design/lfu-cache.md)
 * [OO Design](design/oo-design.md)
   * [Design Elevator](design/oo-design/design-elevator.md)
