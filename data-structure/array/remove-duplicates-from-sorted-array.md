@@ -19,12 +19,12 @@
 [原题链接](https://leetcode.com/problems/remove-duplicates-from-sorted-array/)
 
 ### 解题思路
-明确 f[i] 的原子操作：
-假设a[0 -> i]已经处理完，无重复元素的数组长度为 len
-1. 如果 a[i] == a[len - 1]:
+确认 $$f[i]$$ 的原子操作：
+假设 $$ a[0 -> i] $$ 已经处理完，无重复元素的数组长度为 len
+1. 如果 $$a[i] == a[len - 1]$$:
     Do nothing
-2. 如果a[i] != a[len - 1]:
-    则a[len] = a[i];
+2. 如果 $$a[i] != a[len - 1]$$:
+    则 $$a[len] = a[i]$$;
     len ++
 
 base case: 
