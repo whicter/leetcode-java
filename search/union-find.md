@@ -3,29 +3,34 @@
 # Related Definition
 
 ## Disjoint Set
-A disjoint-set data structure is a data structure that keeps track of a set of elements partitioned into a number of disjoint (non-overlapping) subsets.
+
+A disjoint-set data structure is a data structure that keeps track of a set of elements partitioned into a number of disjoint \(non-overlapping\) subsets.
 
 ## Union Find Algorithm
+
 A union-find algorithm is an algorithm that performs two useful operations on such a data structure:
 
 Find: Determine which subset a particular element is in. This can be used for determining if two elements are in the same subset.
 
 ## 需要解决的基本问题抽象化
+
 1. 有一堆节点
 2. union操作： 把两个节点连在一起
 3. find操作： 两个节点是否存在一条路径连到一起？
 
 ## 应用场景
+
 1. 判断网络上的电脑是否相连？道路是否相通？互联网上的网页是否相连？
 2. 同名变量的识别
-3. 照片上的点？ (假设颜色完全一样称为相连, 比如photoshop里面就用到类似的技术)
-
+3. 照片上的点？ \(假设颜色完全一样称为相连, 比如photoshop里面就用到类似的技术\)
 
 ## 思路一
-每次union的时候，找到所有j对应的parent，都把他改成i对应的parent， 这样，每次union完以后，属于同一个connected component的节点的parent都会被更新到同一个值
+
+每次union的时候，找到所有 _**j **_现在对应的**oldParent**，在loop中，将所有parent是_**oldParent**_的节点，都改成 _**i**_ 对应的parent， 这样，每次union完以后，属于同一个connected component的节点的parent都会被更新到同一个值
 
 实现方法如下：
-``` java
+
+```java
 public class UnionFind1_QuickFind {
 
     private int[] parents;
@@ -51,12 +56,14 @@ public class UnionFind1_QuickFind {
 ```
 
 ## 思路二
+
 1. 建立一个root表，保存最开始union的那个节点， 每次union的时候把root更新一下，
 2. 通过判断两个节点的root来判断是否相通
 3. find的时候就要遍历所有connected component里面的节点才可能判断是否相连。 相当于只是把思路一union的所有复杂度转移到find
 
 实现方法如下：
-``` java
+
+```java
 class UnionFind2_QuickUnion {
     private int[] roots;
     public UnionFind2_QuickUnion(int n) {
@@ -88,5 +95,6 @@ class UnionFind2_QuickUnion {
 ```
 
 ## Refrence
-http://www.noteanddata.com/classic-algorithm-union-find-1.html
+
+[http://www.noteanddata.com/classic-algorithm-union-find-1.html](http://www.noteanddata.com/classic-algorithm-union-find-1.html)
 
