@@ -2,6 +2,7 @@
 
 ## Preface
 
+* [Introduction](README.md)
 * [Content](CONTENT.md)
 
 ## Data Structure
@@ -138,6 +139,8 @@
 * [Topological Sort](search/topological-search.md)
   * [\[LeetCode\] 207. Course Schedule](search/topological-search/course-schedule.md)
   * [\[LeetCode\] 210. Course Schedule II](search/topological-search/course-schedule-ii.md)
+  * [\[LintCode\] 127.Topological Sorting](search/topological-search/lintcode-127topological-sorting.md)
+  * [\[LeetCode\] 269. Alien Dictionary](search/topological-search/alien-dictionary.md)
 
 ## Two Pointers
 
