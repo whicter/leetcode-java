@@ -94,6 +94,61 @@ class UnionFind2_QuickUnion {
 }
 ```
 
+## 九章Union Find 模板
+```java
+Class UnionFind {
+    private Map<Integer, Integer> father;
+
+    public UnionFind() {
+        father = new HashMap<Integer, Integer>();
+    }
+
+    public void add (int x) {
+        if (father.containsKey(x)) {
+            return;
+        } 
+
+        father.put(x, null);
+    }
+
+    public int find(int x) {
+        int root = x;
+        while (father.get(root) != null) {
+            root = father.get(root);
+        }
+        return root;
+    }
+
+    public int findOptimised(int x) {
+        int root = x;
+        while (father.get(root) != null) {
+            root = father.get(rot);
+        }
+
+        while (x! = root) {
+            int originalFather = father.get(x);
+            father.put(x, root);
+            x = originalFather;
+        }
+
+        return root;
+    }
+
+    public void union(int x, int y) {
+        int rootX = find(x);
+        int rootY = find(y);
+
+        if (rootX != rootY) {
+            father.put(rootX, rootY);
+        }
+    }
+
+    public boolean isConnected(int x, int y) {
+        return find(x) == find(y);
+    }
+}x
+```
+
 ## Refrence
 
 [http://www.noteanddata.com/classic-algorithm-union-find-1.html](http://www.noteanddata.com/classic-algorithm-union-find-1.html)
