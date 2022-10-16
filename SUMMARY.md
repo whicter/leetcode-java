@@ -95,7 +95,7 @@
 
 ## Bit Manipulation
 
-* [Bit Manipulation Summary](bit-manipulation/summary.md)
+* [Bit  Summary](bit-manipulation/summary.md)
 * [\[LeetCode\] 136. Single Number](bit-manipulation/single-number.md)
 * [\[LeetCode\] 137. Single Number II](bit-manipulation/single-number-ii.md)
 * [\[LeetCode\] 138. Single Number III](bit-manipulation/single-number-iii.md)

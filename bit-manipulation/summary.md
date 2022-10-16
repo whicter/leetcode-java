@@ -5,8 +5,8 @@
 | \|      | OR                 |  = 0 only if both are 0s                    | 
 |  ^      | XOR (Exclusive or) |  = 1 if same digits, = 0 if different       |
 |  ~      | NOT                |  0 -> 1 or 1 -> 0                           |
-|  <<     | Left Shift         |  高位丢弃, 低位补0                            |
-|  >>     | Right Shift        |  低位丢弃, 高位补0, 符号位不变(two's compliment |
+|  <<     | Left Shift         |  高位丢弃, 低位补0, 每左移一位相当于乘一次2       |
+|  >>     | Right Shift        |  低位丢弃, 高位补0, 符号位不变(two's compliment 每右移一位相当于除一次2|
 
 ## Basic Example From [WikiPedia](https://en.wikipedia.org/wiki/Bitwise_operation#Arithmetic_shift)
 
