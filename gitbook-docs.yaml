@@ -1,0 +1,12 @@
+$schema: https://api.gitbook.com/gitbook-docs.yaml
+version: 1
+site:
+  title: LeetCode Java
+  structure:
+    - type: space
+      key: space-leetcode-java
+      title: LeetCode Java
+      path: leetcode-java
+      default: true
+      content:
+        directory: ./
