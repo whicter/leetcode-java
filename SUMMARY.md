@@ -1,9 +1,8 @@
 # Summary
 
-## Preface
+## 首页
 
-* [Introduction](README.md)
-* [Content](CONTENT.md)
+* [LeetCode Java](README.md)
 
 ## Data Structure
 
@@ -96,29 +95,29 @@
 ## Bit Manipulation
 
 * [Bit  Summary](bit-manipulation/summary.md)
-* [\[LeetCode\] 136. Single Number](bit-manipulation/single-number.md)
-* [\[LeetCode\] 137. Single Number II](bit-manipulation/single-number-ii.md)
-* [\[LeetCode\] 138. Single Number III](bit-manipulation/single-number-iii.md)
-* [\[LeetCode\] 268. Missing Number](bit-manipulation/missing-number.md)
+  * [\[LeetCode\] 136. Single Number](bit-manipulation/single-number.md)
+  * [\[LeetCode\] 137. Single Number II](bit-manipulation/single-number-ii.md)
+  * [\[LeetCode\] 138. Single Number III](bit-manipulation/single-number-iii.md)
+  * [\[LeetCode\] 268. Missing Number](bit-manipulation/missing-number.md)
 
 ## Dynamic Programming
 
 * [DP-Summary](dynamic-programming/summary.md)
-* [\[LeetCode\] 5. Longest Palindromic Substring](dynamic-programming/longest-palindromic-substring.md)
-* [\[LeetCode\] 10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
-* [\[LeetCode\] 53.Maximum Subarray](dynamic-programming/maximum-subarray.md)
-* [\[LeetCode\] 72. Edit Distance](dynamic-programming/edit-distance.md)
-* [\[LeetCode\] 139. Word Break](dynamic-programming/word-break.md)
-* [\[LeetCode\] 152. Maximum Product Subarray](dynamic-programming/maximum-product-subarray.md)
-* [\[LeetCode\] 265. Paint House II](dynamic-programming/paint-house-ii.md)
-* [\[LeetCode\] 300. Longest Increasing Subsequence](dynamic-programming/longest-increasing-subsequence.md)
-* [\[LeetCode\] 322. Coin Change](dynamic-programming/coin-change.md)
-* [\[LeetCode\] 416. Partition Equal Subset Sum](dynamic-programming/partition-equal-subset-sum.md)
-* [\[LeetCode\] 516. Longest Palindromic Subsequence](dynamic-programming/longest-palindromic-subsequence.md)
-* [\[LeetCode\] 518. Coin Change 2](dynamic-programming/coin-change-2.md)
-* [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
-* [\[LeetCode\] 1143. Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
-* [\[LintCode\] 79. Longest Common Substring](dynamic-programming/longest-common-substring.md)
+  * [\[LeetCode\] 5. Longest Palindromic Substring](dynamic-programming/longest-palindromic-substring.md)
+  * [\[LeetCode\] 10. Regular Expression Matching](dynamic-programming/regular-expression-matching.md)
+  * [\[LeetCode\] 53.Maximum Subarray](dynamic-programming/maximum-subarray.md)
+  * [\[LeetCode\] 72. Edit Distance](dynamic-programming/edit-distance.md)
+  * [\[LeetCode\] 139. Word Break](dynamic-programming/word-break.md)
+  * [\[LeetCode\] 152. Maximum Product Subarray](dynamic-programming/maximum-product-subarray.md)
+  * [\[LeetCode\] 265. Paint House II](dynamic-programming/paint-house-ii.md)
+  * [\[LeetCode\] 300. Longest Increasing Subsequence](dynamic-programming/longest-increasing-subsequence.md)
+  * [\[LeetCode\] 322. Coin Change](dynamic-programming/coin-change.md)
+  * [\[LeetCode\] 416. Partition Equal Subset Sum](dynamic-programming/partition-equal-subset-sum.md)
+  * [\[LeetCode\] 516. Longest Palindromic Subsequence](dynamic-programming/longest-palindromic-subsequence.md)
+  * [\[LeetCode\] 518. Coin Change 2](dynamic-programming/coin-change-2.md)
+  * [\[LeetCode\] 1048. Longest String Chain](dynamic-programming/longest-string-chain.md)
+  * [\[LeetCode\] 1143. Longest Common Subsequence](dynamic-programming/longest-common-subsequence.md)
+  * [\[LintCode\] 79. Longest Common Substring](dynamic-programming/longest-common-substring.md)
 
 ## Search & Sort
 
@@ -145,19 +144,20 @@
 ## Two Pointers
 
 * [Two Pointers Summary](two-pointers/two-pointers-summary.md)
-* [\[LeetCode\] 3. Longest Substring Without Repeating Characters](two-pointers/longest-substring-without-repeating-characters.md)
-* [\[LeetCode\] 11. Container With Most Water](two-pointers/container-with-most-water.md)
-* [\[LeetCode\] 15. 3Sum](two-pointers/3sum.md)
-* [\[LeetCode\] 42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
-* [\[LeetCode\] 75. Sort Colors](two-pointers/sort-colors.md)
-* [\[LeetCode\] 76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
-* [\[LeetCode\] 159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
+  * [\[LeetCode\] 3. Longest Substring Without Repeating Characters](two-pointers/longest-substring-without-repeating-characters.md)
+  * [\[LeetCode\] 11. Container With Most Water](two-pointers/container-with-most-water.md)
+  * [\[LeetCode\] 15. 3Sum](two-pointers/3sum.md)
+  * [\[LeetCode\] 42. Trapping Rain Water](two-pointers/trapping-rain-water.md)
+  * [\[LeetCode\] 75. Sort Colors](two-pointers/sort-colors.md)
+  * [\[LeetCode\] 76. Minimum Window Substring](two-pointers/minimum-window-substring.md)
+  * [\[LeetCode\] 159. Longest Substring with At Most Two Distinct Characters](two-pointers/longest-substring-with-at-most-two-distinct-characters.md)
 
 ## Design
 
-* [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
-* [\[LeetCode\] 432. All O\`one Data Structure](design/all-oone-data-structure.md)
-* [\[LeetCode\] 460. LFU Cache](design/lfu-cache.md)
+* LeetCode 设计题
+  * [\[LeetCode\] 146. LRU Cache](design/lru-cache.md)
+  * [\[LeetCode\] 432. All O\`one Data Structure](design/all-oone-data-structure.md)
+  * [\[LeetCode\] 460. LFU Cache](design/lfu-cache.md)
 * [OO Design](design/oo-design.md)
   * [Design Elevator](design/oo-design/design-elevator.md)
 * [System Design](design/system-design.md)
