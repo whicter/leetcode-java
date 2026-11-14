@@ -1,0 +1,9 @@
+{
+  "Data Structure": {"icon": "🧱", "desc": "数组、二叉树、哈希表、堆、链表、栈、字符串", "count": "55 道题"},
+  "BFS & DFS": {"icon": "🌲", "desc": "广度优先、深度优先与回溯", "count": "12 道题"},
+  "Bit Manipulation": {"icon": "🔢", "desc": "位运算基础与常见技巧", "count": "4 道题"},
+  "Dynamic Programming": {"icon": "🧮", "desc": "动态规划的四要素与经典题型", "count": "15 道题"},
+  "Search & Sort": {"icon": "🔍", "desc": "二分查找、并查集、拓扑排序", "count": "16 道题"},
+  "Two Pointers": {"icon": "👉", "desc": "双指针与滑动窗口", "count": "7 道题"},
+  "Design": {"icon": "🏗️", "desc": "LRU / LFU 等设计题、OO Design 与 System Design", "count": "3 道题 + 设计笔记"}
+}

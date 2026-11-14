@@ -14,7 +14,7 @@ _book
 *.epub
 *.mobi
 *.pdf
-_site_src/
-_mkdocs.yml
-site/
-_site_pass1/
+/_site_src/
+/_mkdocs.yml
+/site/
+/_site_pass1/
