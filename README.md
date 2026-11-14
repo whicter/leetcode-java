@@ -1,4 +1,4 @@
-# LeetCode Java
+# Algorithm Coding Interview
 
 算法面试题整理：以 LeetCode / LintCode 为主，按数据结构与解题模式（pattern）分类，每题包含题目描述、思路和 Java 题解。
 Algorithm interview problems, mainly LeetCode / LintCode, organized by data structure and pattern, each with a walkthrough and a Java solution.

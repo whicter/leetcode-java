@@ -1,5 +1,5 @@
-site_name: LeetCode Java
-site_description: Algorithm interview problems with Java solutions, organized by pattern
+site_name: Algorithm Coding Interview
+site_description: 算法面试题解：按数据结构与解题模式整理，Java 实现
 site_url: https://whicter.github.io/leetcode-java/
 repo_url: https://github.com/whicter/leetcode-java
 repo_name: whicter/leetcode-java
@@ -71,6 +71,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/home.css
 
 extra_javascript:
   - javascripts/mathjax.js
